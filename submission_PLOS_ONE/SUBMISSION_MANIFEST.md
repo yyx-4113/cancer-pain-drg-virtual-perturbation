@@ -31,7 +31,6 @@ Date prepared: 2026-10-10
 - Competing interests: "The author declares no competing financial or personal interests."
 - Ethics: secondary reanalysis of publicly deposited animal data; original IACUC approvals cited [10,11,14]; no new animals/humans.
 - Data availability: all data public (GEO GSE149648, GSE160543, GSE292522); code/artefacts at the GitHub URL above.
-- Used or generated research data: YES (reanalysis of public GEO data; the "No" option contradicts a re-analysis and triggers desk-reject). The data-availability statement above applies.
 - AI disclosure: an OpenAI GPT-4-class LLM was used for code debugging and language editing only; no role in analysis design, results, or interpretation.
 
 ## Open items for the author (not auto-filled)
