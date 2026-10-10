@@ -1,0 +1,8 @@
+{
+  "spearman_network_vs_additive": 0.991145455589007,
+  "n_conditions": 132,
+  "mean_abs_network": 0.05680199177596623,
+  "mean_abs_additive": 0.032840627780308475,
+  "mean_abs_ridge": 0.7119267020373183,
+  "mean_pct_of_oracle": 20.513296934023394
+}

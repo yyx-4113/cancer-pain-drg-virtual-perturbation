@@ -1,0 +1,17 @@
+sample,group,n_cells,n_with_any_Gfap_or_Slc1a3,frac
+Sample1_DRG_Con_rep1,Con,46,46,1.0
+Sample1_DRG_Con_rep1,Con,1232,1232,1.0
+Sample2_DRG_Con_rep2,Con,35,35,1.0
+Sample2_DRG_Con_rep2,Con,1245,1245,1.0
+Sample3_DRG_Con_rep3,Con,37,37,1.0
+Sample3_DRG_Con_rep3,Con,1215,1215,1.0
+Sample4_DRG_Con_rep4,Con,25,25,1.0
+Sample4_DRG_Con_rep4,Con,1122,1122,1.0
+Sample5_DRG_B16F10_rep1,B16F10,36,36,1.0
+Sample5_DRG_B16F10_rep1,B16F10,1649,1649,1.0
+Sample6_DRG_B16F10_rep2,B16F10,44,44,1.0
+Sample6_DRG_B16F10_rep2,B16F10,1842,1842,1.0
+Sample7_DRG_B16F10_rep3,B16F10,108,108,1.0
+Sample7_DRG_B16F10_rep3,B16F10,3957,3957,1.0
+Sample8_DRG_B16F10_rep4,B16F10,30,30,1.0
+Sample8_DRG_B16F10_rep4,B16F10,1739,1739,1.0

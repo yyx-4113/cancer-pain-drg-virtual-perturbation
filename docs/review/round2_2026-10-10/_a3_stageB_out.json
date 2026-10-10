@@ -1,0 +1,1492 @@
+done Sample1_DRG_Con_rep1
+done Sample2_DRG_Con_rep2
+done Sample3_DRG_Con_rep3
+done Sample4_DRG_Con_rep4
+done Sample5_DRG_B16F10_rep1
+done Sample6_DRG_B16F10_rep2
+done Sample7_DRG_B16F10_rep3
+done Sample8_DRG_B16F10_rep4
+DE repro done Neuron: n_q05=1556
+DE repro done SatelliteGlia: n_q05=25
+DE repro done Schwann: n_q05=229
+DE repro done Endothelial: n_q05=21
+DE repro done Fibroblast: n_q05=0
+DE repro done Erythrocyte: n_q05=0
+DE repro done Neuron.NF: n_q05=1888
+DE repro done Neuron.PE: n_q05=347
+{
+ "qc_per_compartment": {
+  "Sample1_DRG_Con_rep1": {
+   "Neuron": {
+    "n": 5159,
+    "median_umi": 12329.0,
+    "median_genes": 4142.0,
+    "p25_genes": 1104.0,
+    "p75_genes": 6887.0,
+    "median_margin": 1.360713005065918
+   },
+   "SatelliteGlia": {
+    "n": 46,
+    "median_umi": 2981.0,
+    "median_genes": 1564.0,
+    "p25_genes": 1222.0,
+    "p75_genes": 2074.25,
+    "median_margin": 0.07773590087890625
+   },
+   "Schwann": {
+    "n": 1232,
+    "median_umi": 3166.0,
+    "median_genes": 1609.0,
+    "p25_genes": 1199.75,
+    "p75_genes": 2217.25,
+    "median_margin": 0.31033363938331604
+   },
+   "Myeloid": {
+    "n": 3,
+    "median_umi": 3841.0,
+    "median_genes": 1561.0,
+    "p25_genes": 1357.5,
+    "p75_genes": 3343.5,
+    "median_margin": 0.3199543356895447
+   },
+   "TCell": {
+    "n": 0
+   },
+   "Endothelial": {
+    "n": 40,
+    "median_umi": 3800.0,
+    "median_genes": 2042.0,
+    "p25_genes": 1761.25,
+    "p75_genes": 2921.75,
+    "median_margin": 0.9591701030731201
+   },
+   "Fibroblast": {
+    "n": 29,
+    "median_umi": 3398.0,
+    "median_genes": 1673.0,
+    "p25_genes": 1284.0,
+    "p75_genes": 2069.0,
+    "median_margin": 1.3039124011993408
+   },
+   "Erythrocyte": {
+    "n": 5,
+    "median_umi": 6281.0,
+    "median_genes": 1122.0,
+    "p25_genes": 737.0,
+    "p75_genes": 5310.0,
+    "median_margin": 2.6649036407470703
+   },
+   "Neuron.NF": {
+    "n": 3405,
+    "median_umi": 5291.0,
+    "median_genes": 2368.0,
+    "median_margin": 0.9611966013908386
+   },
+   "Neuron.NP": {
+    "n": 1,
+    "median_umi": 776.0,
+    "median_genes": 600.0,
+    "median_margin": 0.15843364596366882
+   },
+   "Neuron.PE": {
+    "n": 1753,
+    "median_umi": 29003.0,
+    "median_genes": 6116.0,
+    "median_margin": 2.0815508365631104
+   },
+   "Neuron.TH": {
+    "n": 0,
+    "median_umi": null,
+    "median_genes": null,
+    "median_margin": null
+   }
+  },
+  "Sample2_DRG_Con_rep2": {
+   "Neuron": {
+    "n": 5840,
+    "median_umi": 14364.0,
+    "median_genes": 4502.0,
+    "p25_genes": 1134.75,
+    "p75_genes": 6757.25,
+    "median_margin": 1.4079082012176514
+   },
+   "SatelliteGlia": {
+    "n": 35,
+    "median_umi": 3407.0,
+    "median_genes": 1756.0,
+    "p25_genes": 1246.5,
+    "p75_genes": 2391.5,
+    "median_margin": 0.041097402572631836
+   },
+   "Schwann": {
+    "n": 1245,
+    "median_umi": 2495.0,
+    "median_genes": 1343.0,
+    "p25_genes": 1000.0,
+    "p75_genes": 1916.0,
+    "median_margin": 0.35329264402389526
+   },
+   "Myeloid": {
+    "n": 10,
+    "median_umi": 3458.5,
+    "median_genes": 1542.0,
+    "p25_genes": 1128.0,
+    "p75_genes": 1760.25,
+    "median_margin": 0.49508434534072876
+   },
+   "TCell": {
+    "n": 0
+   },
+   "Endothelial": {
+    "n": 50,
+    "median_umi": 4227.0,
+    "median_genes": 2106.0,
+    "p25_genes": 1621.0,
+    "p75_genes": 2761.5,
+    "median_margin": 0.932123064994812
+   },
+   "Fibroblast": {
+    "n": 138,
+    "median_umi": 2922.5,
+    "median_genes": 1533.5,
+    "p25_genes": 1138.75,
+    "p75_genes": 2036.25,
+    "median_margin": 1.7770295143127441
+   },
+   "Erythrocyte": {
+    "n": 4,
+    "median_umi": 4402.0,
+    "median_genes": 1163.5,
+    "p25_genes": 944.0,
+    "p75_genes": 2620.25,
+    "median_margin": 0.41648373007774353
+   },
+   "Neuron.NF": {
+    "n": 4380,
+    "median_umi": 11989.5,
+    "median_genes": 4007.5,
+    "median_margin": 1.2284103631973267
+   },
+   "Neuron.NP": {
+    "n": 0,
+    "median_umi": null,
+    "median_genes": null,
+    "median_margin": null
+   },
+   "Neuron.PE": {
+    "n": 1460,
+    "median_umi": 24885.0,
+    "median_genes": 5804.5,
+    "median_margin": 1.9250092506408691
+   },
+   "Neuron.TH": {
+    "n": 0,
+    "median_umi": null,
+    "median_genes": null,
+    "median_margin": null
+   }
+  },
+  "Sample3_DRG_Con_rep3": {
+   "Neuron": {
+    "n": 4606,
+    "median_umi": 10173.5,
+    "median_genes": 3572.5,
+    "p25_genes": 984.0,
+    "p75_genes": 7170.25,
+    "median_margin": 1.3181172609329224
+   },
+   "SatelliteGlia": {
+    "n": 37,
+    "median_umi": 3432.0,
+    "median_genes": 1729.0,
+    "p25_genes": 1400.0,
+    "p75_genes": 2160.0,
+    "median_margin": 0.05352771282196045
+   },
+   "Schwann": {
+    "n": 1215,
+    "median_umi": 3168.0,
+    "median_genes": 1613.0,
+    "p25_genes": 1197.5,
+    "p75_genes": 2341.0,
+    "median_margin": 0.3868643343448639
+   },
+   "Myeloid": {
+    "n": 12,
+    "median_umi": 3059.5,
+    "median_genes": 1384.5,
+    "p25_genes": 1276.75,
+    "p75_genes": 1708.0,
+    "median_margin": 0.3595487177371979
+   },
+   "TCell": {
+    "n": 0
+   },
+   "Endothelial": {
+    "n": 86,
+    "median_umi": 4432.0,
+    "median_genes": 2233.0,
+    "p25_genes": 1533.25,
+    "p75_genes": 2899.5,
+    "median_margin": 0.9629719257354736
+   },
+   "Fibroblast": {
+    "n": 41,
+    "median_umi": 3110.0,
+    "median_genes": 1718.0,
+    "p25_genes": 1133.0,
+    "p75_genes": 1981.0,
+    "median_margin": 0.9254322648048401
+   },
+   "Erythrocyte": {
+    "n": 22,
+    "median_umi": 4300.0,
+    "median_genes": 692.0,
+    "p25_genes": 550.25,
+    "p75_genes": 923.5,
+    "median_margin": 2.7975783348083496
+   },
+   "Neuron.NF": {
+    "n": 2993,
+    "median_umi": 4596.0,
+    "median_genes": 2190.0,
+    "median_margin": 0.9021826982498169
+   },
+   "Neuron.NP": {
+    "n": 0,
+    "median_umi": null,
+    "median_genes": null,
+    "median_margin": null
+   },
+   "Neuron.PE": {
+    "n": 1613,
+    "median_umi": 21867.0,
+    "median_genes": 5628.0,
+    "median_margin": 2.0115854740142822
+   },
+   "Neuron.TH": {
+    "n": 0,
+    "median_umi": null,
+    "median_genes": null,
+    "median_margin": null
+   }
+  },
+  "Sample4_DRG_Con_rep4": {
+   "Neuron": {
+    "n": 4589,
+    "median_umi": 4283.0,
+    "median_genes": 2021.0,
+    "p25_genes": 949.0,
+    "p75_genes": 7083.0,
+    "median_margin": 1.006624460220337
+   },
+   "SatelliteGlia": {
+    "n": 25,
+    "median_umi": 6347.0,
+    "median_genes": 2515.0,
+    "p25_genes": 1908.0,
+    "p75_genes": 2697.0,
+    "median_margin": 0.07297509908676147
+   },
+   "Schwann": {
+    "n": 1122,
+    "median_umi": 3855.0,
+    "median_genes": 1827.0,
+    "p25_genes": 1380.25,
+    "p75_genes": 2589.75,
+    "median_margin": 0.4260786771774292
+   },
+   "Myeloid": {
+    "n": 5,
+    "median_umi": 5301.0,
+    "median_genes": 1851.0,
+    "p25_genes": 1591.0,
+    "p75_genes": 2130.0,
+    "median_margin": 0.49687325954437256
+   },
+   "TCell": {
+    "n": 0
+   },
+   "Endothelial": {
+    "n": 53,
+    "median_umi": 4128.0,
+    "median_genes": 2116.0,
+    "p25_genes": 1403.0,
+    "p75_genes": 2871.0,
+    "median_margin": 0.9179110527038574
+   },
+   "Fibroblast": {
+    "n": 20,
+    "median_umi": 3487.5,
+    "median_genes": 1829.5,
+    "p25_genes": 1061.25,
+    "p75_genes": 1989.25,
+    "median_margin": 0.6518398523330688
+   },
+   "Erythrocyte": {
+    "n": 3,
+    "median_umi": 1487.0,
+    "median_genes": 615.0,
+    "p25_genes": 569.0,
+    "p75_genes": 637.5,
+    "median_margin": 3.409108877182007
+   },
+   "Neuron.NF": {
+    "n": 3306,
+    "median_umi": 2810.0,
+    "median_genes": 1538.0,
+    "median_margin": 0.7918345332145691
+   },
+   "Neuron.NP": {
+    "n": 0,
+    "median_umi": null,
+    "median_genes": null,
+    "median_margin": null
+   },
+   "Neuron.PE": {
+    "n": 1283,
+    "median_umi": 23822.0,
+    "median_genes": 5858.0,
+    "median_margin": 1.9353216886520386
+   },
+   "Neuron.TH": {
+    "n": 0,
+    "median_umi": null,
+    "median_genes": null,
+    "median_margin": null
+   }
+  },
+  "Sample5_DRG_B16F10_rep1": {
+   "Neuron": {
+    "n": 4226,
+    "median_umi": 5455.0,
+    "median_genes": 2383.5,
+    "p25_genes": 859.25,
+    "p75_genes": 7445.75,
+    "median_margin": 1.0644757747650146
+   },
+   "SatelliteGlia": {
+    "n": 36,
+    "median_umi": 4201.5,
+    "median_genes": 1852.5,
+    "p25_genes": 1327.0,
+    "p75_genes": 2318.5,
+    "median_margin": 0.06557345390319824
+   },
+   "Schwann": {
+    "n": 1649,
+    "median_umi": 3262.0,
+    "median_genes": 1640.0,
+    "p25_genes": 1207.0,
+    "p75_genes": 2321.0,
+    "median_margin": 0.4279617667198181
+   },
+   "Myeloid": {
+    "n": 5,
+    "median_umi": 4290.0,
+    "median_genes": 1742.0,
+    "p25_genes": 1291.0,
+    "p75_genes": 1866.0,
+    "median_margin": 0.21379995346069336
+   },
+   "TCell": {
+    "n": 0
+   },
+   "Endothelial": {
+    "n": 43,
+    "median_umi": 3705.0,
+    "median_genes": 2025.0,
+    "p25_genes": 1171.0,
+    "p75_genes": 2500.0,
+    "median_margin": 0.8872623443603516
+   },
+   "Fibroblast": {
+    "n": 209,
+    "median_umi": 3059.0,
+    "median_genes": 1601.0,
+    "p25_genes": 1131.0,
+    "p75_genes": 1987.0,
+    "median_margin": 1.8621838092803955
+   },
+   "Erythrocyte": {
+    "n": 7,
+    "median_umi": 4691.0,
+    "median_genes": 826.0,
+    "p25_genes": 628.5,
+    "p75_genes": 4359.5,
+    "median_margin": 2.1488049030303955
+   },
+   "Neuron.NF": {
+    "n": 3051,
+    "median_umi": 3486.0,
+    "median_genes": 1817.0,
+    "median_margin": 0.8023722767829895
+   },
+   "Neuron.NP": {
+    "n": 0,
+    "median_umi": null,
+    "median_genes": null,
+    "median_margin": null
+   },
+   "Neuron.PE": {
+    "n": 1173,
+    "median_umi": 22730.0,
+    "median_genes": 5771.0,
+    "median_margin": 1.875229835510254
+   },
+   "Neuron.TH": {
+    "n": 2,
+    "median_umi": 794.0,
+    "median_genes": 617.5,
+    "median_margin": 0.12798282504081726
+   }
+  },
+  "Sample6_DRG_B16F10_rep2": {
+   "Neuron": {
+    "n": 5366,
+    "median_umi": 8389.0,
+    "median_genes": 3242.0,
+    "p25_genes": 865.5,
+    "p75_genes": 6341.0,
+    "median_margin": 1.216618299484253
+   },
+   "SatelliteGlia": {
+    "n": 44,
+    "median_umi": 2499.5,
+    "median_genes": 1338.5,
+    "p25_genes": 1096.0,
+    "p75_genes": 2063.5,
+    "median_margin": 0.047875940799713135
+   },
+   "Schwann": {
+    "n": 1842,
+    "median_umi": 2735.0,
+    "median_genes": 1433.5,
+    "p25_genes": 1014.0,
+    "p75_genes": 2025.0,
+    "median_margin": 0.3335506319999695
+   },
+   "Myeloid": {
+    "n": 3,
+    "median_umi": 7277.0,
+    "median_genes": 2043.0,
+    "p25_genes": 1808.5,
+    "p75_genes": 2337.5,
+    "median_margin": 0.4554787278175354
+   },
+   "TCell": {
+    "n": 0
+   },
+   "Endothelial": {
+    "n": 47,
+    "median_umi": 3611.0,
+    "median_genes": 1826.0,
+    "p25_genes": 1186.5,
+    "p75_genes": 2673.0,
+    "median_margin": 0.7674822211265564
+   },
+   "Fibroblast": {
+    "n": 172,
+    "median_umi": 1930.5,
+    "median_genes": 1176.5,
+    "p25_genes": 837.25,
+    "p75_genes": 1528.5,
+    "median_margin": 1.0360722541809082
+   },
+   "Erythrocyte": {
+    "n": 6,
+    "median_umi": 1519.0,
+    "median_genes": 513.0,
+    "p25_genes": 382.75,
+    "p75_genes": 2625.5,
+    "median_margin": 2.045055866241455
+   },
+   "Neuron.NF": {
+    "n": 3157,
+    "median_umi": 5373.0,
+    "median_genes": 2387.0,
+    "median_margin": 0.9521681070327759
+   },
+   "Neuron.NP": {
+    "n": 1,
+    "median_umi": 727.0,
+    "median_genes": 590.0,
+    "median_margin": 0.049510516226291656
+   },
+   "Neuron.PE": {
+    "n": 2206,
+    "median_umi": 12855.5,
+    "median_genes": 4339.0,
+    "median_margin": 1.6770120859146118
+   },
+   "Neuron.TH": {
+    "n": 2,
+    "median_umi": 948.0,
+    "median_genes": 606.0,
+    "median_margin": 0.0784723088145256
+   }
+  },
+  "Sample7_DRG_B16F10_rep3": {
+   "Neuron": {
+    "n": 5489,
+    "median_umi": 13260.0,
+    "median_genes": 4368.0,
+    "p25_genes": 1173.0,
+    "p75_genes": 6612.0,
+    "median_margin": 1.3912594318389893
+   },
+   "SatelliteGlia": {
+    "n": 108,
+    "median_umi": 2678.5,
+    "median_genes": 1381.0,
+    "p25_genes": 1060.0,
+    "p75_genes": 1787.5,
+    "median_margin": 0.04951051250100136
+   },
+   "Schwann": {
+    "n": 3957,
+    "median_umi": 2283.0,
+    "median_genes": 1270.0,
+    "p25_genes": 901.0,
+    "p75_genes": 1829.0,
+    "median_margin": 0.37293773889541626
+   },
+   "Myeloid": {
+    "n": 7,
+    "median_umi": 2839.0,
+    "median_genes": 1396.0,
+    "p25_genes": 1218.0,
+    "p75_genes": 1430.5,
+    "median_margin": 0.3899933397769928
+   },
+   "TCell": {
+    "n": 1,
+    "median_umi": 1236.0,
+    "median_genes": 824.0,
+    "p25_genes": 824.0,
+    "p75_genes": 824.0,
+    "median_margin": 0.25564301013946533
+   },
+   "Endothelial": {
+    "n": 79,
+    "median_umi": 2568.0,
+    "median_genes": 1659.0,
+    "p25_genes": 1106.0,
+    "p75_genes": 2044.5,
+    "median_margin": 0.6912740468978882
+   },
+   "Fibroblast": {
+    "n": 159,
+    "median_umi": 2130.0,
+    "median_genes": 1163.0,
+    "p25_genes": 833.5,
+    "p75_genes": 1619.5,
+    "median_margin": 1.0742746591567993
+   },
+   "Erythrocyte": {
+    "n": 26,
+    "median_umi": 5370.5,
+    "median_genes": 1146.0,
+    "p25_genes": 502.25,
+    "p75_genes": 3495.25,
+    "median_margin": 3.3498165607452393
+   },
+   "Neuron.NF": {
+    "n": 3395,
+    "median_umi": 11180.0,
+    "median_genes": 3935.0,
+    "median_margin": 1.1539840698242188
+   },
+   "Neuron.NP": {
+    "n": 1,
+    "median_umi": 578.0,
+    "median_genes": 488.0,
+    "median_margin": 0.3260248601436615
+   },
+   "Neuron.PE": {
+    "n": 2090,
+    "median_umi": 19415.5,
+    "median_genes": 5244.5,
+    "median_margin": 1.7332725524902344
+   },
+   "Neuron.TH": {
+    "n": 3,
+    "median_umi": 532.0,
+    "median_genes": 437.0,
+    "median_margin": 0.12798282504081726
+   }
+  },
+  "Sample8_DRG_B16F10_rep4": {
+   "Neuron": {
+    "n": 4890,
+    "median_umi": 7523.5,
+    "median_genes": 2967.0,
+    "p25_genes": 1034.0,
+    "p75_genes": 6813.75,
+    "median_margin": 1.26176917552948
+   },
+   "SatelliteGlia": {
+    "n": 30,
+    "median_umi": 4374.0,
+    "median_genes": 2018.0,
+    "p25_genes": 1397.5,
+    "p75_genes": 2575.5,
+    "median_margin": 0.055007725954055786
+   },
+   "Schwann": {
+    "n": 1739,
+    "median_umi": 3504.0,
+    "median_genes": 1733.0,
+    "p25_genes": 1284.0,
+    "p75_genes": 2367.5,
+    "median_margin": 0.3744341731071472
+   },
+   "Myeloid": {
+    "n": 1,
+    "median_umi": 3056.0,
+    "median_genes": 1203.0,
+    "p25_genes": 1203.0,
+    "p75_genes": 1203.0,
+    "median_margin": 0.3162109851837158
+   },
+   "TCell": {
+    "n": 0
+   },
+   "Endothelial": {
+    "n": 50,
+    "median_umi": 4151.0,
+    "median_genes": 2164.5,
+    "p25_genes": 1470.5,
+    "p75_genes": 3022.25,
+    "median_margin": 0.8603383302688599
+   },
+   "Fibroblast": {
+    "n": 89,
+    "median_umi": 2567.0,
+    "median_genes": 1442.0,
+    "p25_genes": 1200.0,
+    "p75_genes": 1777.0,
+    "median_margin": 1.4366482496261597
+   },
+   "Erythrocyte": {
+    "n": 15,
+    "median_umi": 4434.0,
+    "median_genes": 644.0,
+    "p25_genes": 486.0,
+    "p75_genes": 1276.0,
+    "median_margin": 4.025968074798584
+   },
+   "Neuron.NF": {
+    "n": 2942,
+    "median_umi": 4759.5,
+    "median_genes": 2167.0,
+    "median_margin": 0.9870246648788452
+   },
+   "Neuron.NP": {
+    "n": 0,
+    "median_umi": null,
+    "median_genes": null,
+    "median_margin": null
+   },
+   "Neuron.PE": {
+    "n": 1947,
+    "median_umi": 13034.0,
+    "median_genes": 4459.0,
+    "median_margin": 1.7550779581069946
+   },
+   "Neuron.TH": {
+    "n": 1,
+    "median_umi": 747.0,
+    "median_genes": 566.0,
+    "median_margin": 0.0
+   }
+  }
+ },
+ "satglia_markers": {
+  "Sample1_DRG_Con_rep1": {
+   "n_cells": 46,
+   "counts_in_compartment": {
+    "Gfap": 0,
+    "Slc1a3": 44,
+    "Aqp4": 48,
+    "Sox10": 48
+   }
+  },
+  "Sample2_DRG_Con_rep2": {
+   "n_cells": 35,
+   "counts_in_compartment": {
+    "Gfap": 0,
+    "Slc1a3": 34,
+    "Aqp4": 45,
+    "Sox10": 37
+   }
+  },
+  "Sample3_DRG_Con_rep3": {
+   "n_cells": 37,
+   "counts_in_compartment": {
+    "Gfap": 0,
+    "Slc1a3": 31,
+    "Aqp4": 39,
+    "Sox10": 43
+   }
+  },
+  "Sample4_DRG_Con_rep4": {
+   "n_cells": 25,
+   "counts_in_compartment": {
+    "Gfap": 3,
+    "Slc1a3": 26,
+    "Aqp4": 36,
+    "Sox10": 29
+   }
+  },
+  "Sample5_DRG_B16F10_rep1": {
+   "n_cells": 36,
+   "counts_in_compartment": {
+    "Gfap": 0,
+    "Slc1a3": 32,
+    "Aqp4": 41,
+    "Sox10": 39
+   }
+  },
+  "Sample6_DRG_B16F10_rep2": {
+   "n_cells": 44,
+   "counts_in_compartment": {
+    "Gfap": 2,
+    "Slc1a3": 30,
+    "Aqp4": 48,
+    "Sox10": 22
+   }
+  },
+  "Sample7_DRG_B16F10_rep3": {
+   "n_cells": 108,
+   "counts_in_compartment": {
+    "Gfap": 2,
+    "Slc1a3": 69,
+    "Aqp4": 86,
+    "Sox10": 91
+   }
+  },
+  "Sample8_DRG_B16F10_rep4": {
+   "n_cells": 30,
+   "counts_in_compartment": {
+    "Gfap": 0,
+    "Slc1a3": 27,
+    "Aqp4": 37,
+    "Sox10": 42
+   }
+  }
+ },
+ "neuron_purity": {
+  "Sample1_DRG_Con_rep1": {
+   "n_true_neuron_cells": 591,
+   "n_argmax_Neuron": 5159,
+   "true_neu_in_argmax_Neuron": 591,
+   "true_neu_land": {
+    "Neuron": 591
+   },
+   "argmax_Neuron_median_genes": 4142.0
+  },
+  "Sample2_DRG_Con_rep2": {
+   "n_true_neuron_cells": 571,
+   "n_argmax_Neuron": 5840,
+   "true_neu_in_argmax_Neuron": 571,
+   "true_neu_land": {
+    "Neuron": 571
+   },
+   "argmax_Neuron_median_genes": 4502.0
+  },
+  "Sample3_DRG_Con_rep3": {
+   "n_true_neuron_cells": 481,
+   "n_argmax_Neuron": 4606,
+   "true_neu_in_argmax_Neuron": 481,
+   "true_neu_land": {
+    "Neuron": 481
+   },
+   "argmax_Neuron_median_genes": 3572.5
+  },
+  "Sample4_DRG_Con_rep4": {
+   "n_true_neuron_cells": 476,
+   "n_argmax_Neuron": 4589,
+   "true_neu_in_argmax_Neuron": 476,
+   "true_neu_land": {
+    "Neuron": 476
+   },
+   "argmax_Neuron_median_genes": 2021.0
+  },
+  "Sample5_DRG_B16F10_rep1": {
+   "n_true_neuron_cells": 497,
+   "n_argmax_Neuron": 4226,
+   "true_neu_in_argmax_Neuron": 497,
+   "true_neu_land": {
+    "Neuron": 497
+   },
+   "argmax_Neuron_median_genes": 2383.5
+  },
+  "Sample6_DRG_B16F10_rep2": {
+   "n_true_neuron_cells": 728,
+   "n_argmax_Neuron": 5366,
+   "true_neu_in_argmax_Neuron": 726,
+   "true_neu_land": {
+    "Neuron": 726,
+    "Endothelial": 1,
+    "Erythrocyte": 1
+   },
+   "argmax_Neuron_median_genes": 3242.0
+  },
+  "Sample7_DRG_B16F10_rep3": {
+   "n_true_neuron_cells": 691,
+   "n_argmax_Neuron": 5489,
+   "true_neu_in_argmax_Neuron": 687,
+   "true_neu_land": {
+    "Neuron": 687,
+    "Erythrocyte": 3,
+    "Endothelial": 1
+   },
+   "argmax_Neuron_median_genes": 4368.0
+  },
+  "Sample8_DRG_B16F10_rep4": {
+   "n_true_neuron_cells": 759,
+   "n_argmax_Neuron": 4890,
+   "true_neu_in_argmax_Neuron": 758,
+   "true_neu_land": {
+    "Neuron": 758,
+    "Endothelial": 1
+   },
+   "argmax_Neuron_median_genes": 2967.0
+  }
+ },
+ "margin_summary": {
+  "Sample1_DRG_Con_rep1": {
+   "frac_margin_lt_0p1": 0.06923549278477126,
+   "frac_margin_lt_0p3": 0.19803500153515505,
+   "median_margin_by_type": {
+    "Neuron": 1.360713005065918,
+    "SatelliteGlia": 0.07773590087890625,
+    "Schwann": 0.31033363938331604,
+    "Myeloid": 0.3199543356895447,
+    "Endothelial": 0.9591701030731201,
+    "Fibroblast": 1.3039124011993408,
+    "Erythrocyte": 2.6649036407470703
+   }
+  },
+  "Sample2_DRG_Con_rep2": {
+   "frac_margin_lt_0p1": 0.061868341983064734,
+   "frac_margin_lt_0p3": 0.1761813712100519,
+   "median_margin_by_type": {
+    "Neuron": 1.4079082012176514,
+    "SatelliteGlia": 0.041097402572631836,
+    "Schwann": 0.35329264402389526,
+    "Myeloid": 0.49508434534072876,
+    "Endothelial": 0.932123064994812,
+    "Fibroblast": 1.7770295143127441,
+    "Erythrocyte": 0.41648373007774353
+   }
+  },
+  "Sample3_DRG_Con_rep3": {
+   "frac_margin_lt_0p1": 0.06329955142050174,
+   "frac_margin_lt_0p3": 0.17561056653929225,
+   "median_margin_by_type": {
+    "Neuron": 1.3181172609329224,
+    "SatelliteGlia": 0.05352771282196045,
+    "Schwann": 0.3868643343448639,
+    "Myeloid": 0.3595487177371979,
+    "Endothelial": 0.9629719257354736,
+    "Fibroblast": 0.9254322648048401,
+    "Erythrocyte": 2.7975783348083496
+   }
+  },
+  "Sample4_DRG_Con_rep4": {
+   "frac_margin_lt_0p1": 0.04675949802303593,
+   "frac_margin_lt_0p3": 0.14268523293794053,
+   "median_margin_by_type": {
+    "Neuron": 1.006624460220337,
+    "SatelliteGlia": 0.07297509908676147,
+    "Schwann": 0.4260786771774292,
+    "Myeloid": 0.49687325954437256,
+    "Endothelial": 0.9179110527038574,
+    "Fibroblast": 0.6518398523330688,
+    "Erythrocyte": 3.409108877182007
+   }
+  },
+  "Sample5_DRG_B16F10_rep1": {
+   "frac_margin_lt_0p1": 0.06412955465587045,
+   "frac_margin_lt_0p3": 0.20518218623481782,
+   "median_margin_by_type": {
+    "Neuron": 1.0644757747650146,
+    "SatelliteGlia": 0.06557345390319824,
+    "Schwann": 0.4279617667198181,
+    "Myeloid": 0.21379995346069336,
+    "Endothelial": 0.8872623443603516,
+    "Fibroblast": 1.8621838092803955,
+    "Erythrocyte": 2.1488049030303955
+   }
+  },
+  "Sample6_DRG_B16F10_rep2": {
+   "frac_margin_lt_0p1": 0.0803475935828877,
+   "frac_margin_lt_0p3": 0.2356951871657754,
+   "median_margin_by_type": {
+    "Neuron": 1.216618299484253,
+    "SatelliteGlia": 0.047875940799713135,
+    "Schwann": 0.3335506319999695,
+    "Myeloid": 0.4554787278175354,
+    "Endothelial": 0.7674822211265564,
+    "Fibroblast": 1.0360722541809082,
+    "Erythrocyte": 2.045055866241455
+   }
+  },
+  "Sample7_DRG_B16F10_rep3": {
+   "frac_margin_lt_0p1": 0.10777529004681458,
+   "frac_margin_lt_0p3": 0.3002238957866884,
+   "median_margin_by_type": {
+    "Neuron": 1.3912594318389893,
+    "SatelliteGlia": 0.04951051250100136,
+    "Schwann": 0.37293773889541626,
+    "Myeloid": 0.3899933397769928,
+    "TCell": 0.25564301013946533,
+    "Endothelial": 0.6912740468978882,
+    "Fibroblast": 1.0742746591567993,
+    "Erythrocyte": 3.3498165607452393
+   }
+  },
+  "Sample8_DRG_B16F10_rep4": {
+   "frac_margin_lt_0p1": 0.062078074552392136,
+   "frac_margin_lt_0p3": 0.18843557381860876,
+   "median_margin_by_type": {
+    "Neuron": 1.26176917552948,
+    "SatelliteGlia": 0.055007725954055786,
+    "Schwann": 0.3744341731071472,
+    "Myeloid": 0.3162109851837158,
+    "Endothelial": 0.8603383302688599,
+    "Fibroblast": 1.4366482496261597,
+    "Erythrocyte": 4.025968074798584
+   }
+  }
+ },
+ "gal_per_cell": {
+  "Sample1_DRG_Con_rep1": {
+   "group": "Con",
+   "n_neuron_cells": 5159,
+   "mean_gal_counts_per_neuron_cell": 7.888544291529366,
+   "median_gal": 0.0,
+   "frac_gal_positive_neurons": 0.3585966272533437
+  },
+  "Sample2_DRG_Con_rep2": {
+   "group": "Con",
+   "n_neuron_cells": 5840,
+   "mean_gal_counts_per_neuron_cell": 4.429794520547945,
+   "median_gal": 0.0,
+   "frac_gal_positive_neurons": 0.29092465753424657
+  },
+  "Sample3_DRG_Con_rep3": {
+   "group": "Con",
+   "n_neuron_cells": 4606,
+   "mean_gal_counts_per_neuron_cell": 11.100303951367781,
+   "median_gal": 0.0,
+   "frac_gal_positive_neurons": 0.39774207555362573
+  },
+  "Sample4_DRG_Con_rep4": {
+   "group": "Con",
+   "n_neuron_cells": 4589,
+   "mean_gal_counts_per_neuron_cell": 7.52429723251253,
+   "median_gal": 0.0,
+   "frac_gal_positive_neurons": 0.28611898016997167
+  },
+  "Sample5_DRG_B16F10_rep1": {
+   "group": "B16F10",
+   "n_neuron_cells": 4226,
+   "mean_gal_counts_per_neuron_cell": 26.58353052531945,
+   "median_gal": 0.0,
+   "frac_gal_positive_neurons": 0.42309512541410316
+  },
+  "Sample6_DRG_B16F10_rep2": {
+   "group": "B16F10",
+   "n_neuron_cells": 5366,
+   "mean_gal_counts_per_neuron_cell": 17.81345508758852,
+   "median_gal": 1.0,
+   "frac_gal_positive_neurons": 0.5339172568020872
+  },
+  "Sample7_DRG_B16F10_rep3": {
+   "group": "B16F10",
+   "n_neuron_cells": 5489,
+   "mean_gal_counts_per_neuron_cell": 21.60575696848242,
+   "median_gal": 1.0,
+   "frac_gal_positive_neurons": 0.5860812534159228
+  },
+  "Sample8_DRG_B16F10_rep4": {
+   "group": "B16F10",
+   "n_neuron_cells": 4890,
+   "mean_gal_counts_per_neuron_cell": 25.23394683026585,
+   "median_gal": 1.0,
+   "frac_gal_positive_neurons": 0.6621676891615542
+  }
+ },
+ "global_resid": {
+  "Neuron": {
+   "n_genes": 34020,
+   "slope_vs_bulk_lfc": 0.8555,
+   "spearman_rho_vs_bulk": 0.904
+  },
+  "Schwann": {
+   "n_genes": 25189,
+   "slope_vs_bulk_lfc": 0.428,
+   "spearman_rho_vs_bulk": 0.3996
+  },
+  "Neuron.NF": {
+   "n_genes": 32547,
+   "slope_vs_bulk_lfc": 1.0114,
+   "spearman_rho_vs_bulk": 0.827
+  }
+ },
+ "npz_crosscheck_maxabsdiff": {
+  "Sample1_DRG_Con_rep1": {
+   "Neuron": 0.0,
+   "SatelliteGlia": 0.0,
+   "Schwann": 0.0,
+   "Endothelial": 0.0,
+   "Fibroblast": 0.0,
+   "Erythrocyte": 0.0,
+   "Neuron.NF": 0.0,
+   "Neuron.PE": 0.0
+  },
+  "Sample7_DRG_B16F10_rep3": {
+   "Neuron": 0.0,
+   "SatelliteGlia": 0.0,
+   "Schwann": 0.0,
+   "Myeloid": 0.0,
+   "Endothelial": 0.0,
+   "Fibroblast": 0.0,
+   "Erythrocyte": 0.0,
+   "Neuron.NF": 0.0,
+   "Neuron.PE": 0.0
+  }
+ },
+ "de_reproduction": {
+  "Neuron": {
+   "n_samples": 8,
+   "groups_present": [
+    "B16F10",
+    "Con"
+   ],
+   "n_genes": 34076,
+   "n_q05": 1556,
+   "Gal": {
+    "logFC": 1.472,
+    "t": 10.17,
+    "q": 0.0001
+   },
+   "Scn10a": {
+    "logFC": -0.247,
+    "t": -5.15,
+    "q": 0.0119
+   },
+   "Ifit1": {
+    "logFC": -0.07,
+    "t": -0.79,
+    "q": 0.7115
+   },
+   "Ifit2": {
+    "logFC": -0.049,
+    "t": -3.89,
+    "q": 0.0462
+   },
+   "Isg15": {
+    "logFC": 0.039,
+    "t": 1.92,
+    "q": 0.3568
+   },
+   "Cx3cr1": {
+    "logFC": 0.012,
+    "t": 5.45,
+    "q": 0.0088
+   },
+   "Gfap": {
+    "logFC": 0.001,
+    "t": 3.46,
+    "q": 0.0749
+   },
+   "Il1b": {
+    "logFC": 0.001,
+    "t": 3.39,
+    "q": 0.0809
+   },
+   "Lyz2": {
+    "logFC": -0.004,
+    "t": -1.25,
+    "q": 0.5836
+   },
+   "Snap25": {
+    "logFC": -0.071,
+    "t": -1.19,
+    "q": 0.6078
+   }
+  },
+  "SatelliteGlia": {
+   "n_samples": 8,
+   "groups_present": [
+    "B16F10",
+    "Con"
+   ],
+   "n_genes": 16107,
+   "n_q05": 25,
+   "Gal": {
+    "logFC": 0.388,
+    "t": 3.56,
+    "q": 0.1386
+   },
+   "Scn10a": {
+    "logFC": -0.145,
+    "t": -1.34,
+    "q": 0.8039
+   },
+   "Ifit1": {
+    "logFC": -0.523,
+    "t": -4.74,
+    "q": 0.0036
+   },
+   "Ifit2": {
+    "logFC": -0.42,
+    "t": -3.79,
+    "q": 0.0757
+   },
+   "Isg15": {
+    "logFC": -0.629,
+    "t": -4.54,
+    "q": 0.0071
+   },
+   "Gfap": {
+    "logFC": 0.0,
+    "t": 0.0,
+    "q": 0.9995
+   },
+   "Snap25": {
+    "logFC": -0.102,
+    "t": -0.74,
+    "q": 0.8654
+   }
+  },
+  "Schwann": {
+   "n_samples": 8,
+   "groups_present": [
+    "B16F10",
+    "Con"
+   ],
+   "n_genes": 25232,
+   "n_q05": 229,
+   "Gal": {
+    "logFC": 0.453,
+    "t": 6.01,
+    "q": 0.0062
+   },
+   "Scn10a": {
+    "logFC": -0.15,
+    "t": -2.92,
+    "q": 0.2402
+   },
+   "Ifit1": {
+    "logFC": -0.021,
+    "t": -0.92,
+    "q": 0.7776
+   },
+   "Ifit2": {
+    "logFC": -0.021,
+    "t": -1.08,
+    "q": 0.7616
+   },
+   "Isg15": {
+    "logFC": -0.143,
+    "t": -1.54,
+    "q": 0.645
+   },
+   "Cx3cr1": {
+    "logFC": 0.003,
+    "t": 1.53,
+    "q": 0.6499
+   },
+   "Gfap": {
+    "logFC": 0.028,
+    "t": 4.17,
+    "q": 0.0593
+   },
+   "Il1b": {
+    "logFC": -0.0,
+    "t": -0.2,
+    "q": 0.946
+   },
+   "Lyz2": {
+    "logFC": -0.04,
+    "t": -1.5,
+    "q": 0.6612
+   },
+   "Snap25": {
+    "logFC": -0.302,
+    "t": -4.6,
+    "q": 0.0352
+   }
+  },
+  "Endothelial": {
+   "n_samples": 8,
+   "groups_present": [
+    "B16F10",
+    "Con"
+   ],
+   "n_genes": 17499,
+   "n_q05": 21,
+   "Gal": {
+    "logFC": 0.671,
+    "t": 6.29,
+    "q": 0.0001
+   },
+   "Scn10a": {
+    "logFC": -0.072,
+    "t": -0.75,
+    "q": 0.8709
+   },
+   "Ifit1": {
+    "logFC": 0.036,
+    "t": 0.28,
+    "q": 0.9526
+   },
+   "Ifit2": {
+    "logFC": -0.127,
+    "t": -1.07,
+    "q": 0.8524
+   },
+   "Isg15": {
+    "logFC": -0.353,
+    "t": -2.62,
+    "q": 0.7803
+   },
+   "Cx3cr1": {
+    "logFC": -0.026,
+    "t": -1.3,
+    "q": 0.8524
+   },
+   "Gfap": {
+    "logFC": 0.015,
+    "t": 0.88,
+    "q": 0.8524
+   },
+   "Lyz2": {
+    "logFC": -0.813,
+    "t": -5.5,
+    "q": 0.0008
+   },
+   "Snap25": {
+    "logFC": 0.093,
+    "t": 0.76,
+    "q": 0.8675
+   }
+  },
+  "Fibroblast": {
+   "n_samples": 8,
+   "groups_present": [
+    "B16F10",
+    "Con"
+   ],
+   "n_genes": 18405,
+   "n_q05": 0,
+   "Gal": {
+    "logFC": 1.512,
+    "t": 2.81,
+    "q": 0.7835
+   },
+   "Scn10a": {
+    "logFC": -0.252,
+    "t": -1.68,
+    "q": 0.7835
+   },
+   "Ifit1": {
+    "logFC": -0.071,
+    "t": -0.55,
+    "q": 0.8492
+   },
+   "Ifit2": {
+    "logFC": -0.125,
+    "t": -1.69,
+    "q": 0.7835
+   },
+   "Isg15": {
+    "logFC": 0.147,
+    "t": 0.46,
+    "q": 0.8815
+   },
+   "Cx3cr1": {
+    "logFC": 0.008,
+    "t": 0.91,
+    "q": 0.7835
+   },
+   "Lyz2": {
+    "logFC": 0.063,
+    "t": 1.86,
+    "q": 0.7835
+   },
+   "Snap25": {
+    "logFC": -0.2,
+    "t": -1.19,
+    "q": 0.7835
+   }
+  },
+  "Erythrocyte": {
+   "n_samples": 6,
+   "groups_present": [
+    "B16F10",
+    "Con"
+   ],
+   "n_genes": 14627,
+   "n_q05": 0,
+   "Gal": {
+    "logFC": -0.1,
+    "t": -0.34,
+    "q": 0.9255
+   },
+   "Scn10a": {
+    "logFC": -0.289,
+    "t": -0.75,
+    "q": 0.8933
+   },
+   "Ifit1": {
+    "logFC": -0.081,
+    "t": -0.35,
+    "q": 0.9201
+   },
+   "Ifit2": {
+    "logFC": 0.18,
+    "t": 1.02,
+    "q": 0.8813
+   },
+   "Isg15": {
+    "logFC": 0.441,
+    "t": 1.36,
+    "q": 0.8813
+   },
+   "Gfap": {
+    "logFC": 0.025,
+    "t": 0.79,
+    "q": 0.8813
+   },
+   "Snap25": {
+    "logFC": 0.098,
+    "t": 0.23,
+    "q": 0.9448
+   }
+  },
+  "Neuron.NF": {
+   "n_samples": 8,
+   "groups_present": [
+    "B16F10",
+    "Con"
+   ],
+   "n_genes": 32602,
+   "n_q05": 1888,
+   "Gal": {
+    "logFC": 2.535,
+    "t": 18.14,
+    "q": 0.0
+   },
+   "Scn10a": {
+    "logFC": -0.399,
+    "t": -6.64,
+    "q": 0.0019
+   },
+   "Ifit1": {
+    "logFC": -0.052,
+    "t": -0.54,
+    "q": 0.79
+   },
+   "Ifit2": {
+    "logFC": -0.06,
+    "t": -3.85,
+    "q": 0.0412
+   },
+   "Isg15": {
+    "logFC": 0.063,
+    "t": 2.7,
+    "q": 0.1593
+   },
+   "Cx3cr1": {
+    "logFC": 0.019,
+    "t": 5.56,
+    "q": 0.006
+   },
+   "Gfap": {
+    "logFC": 0.001,
+    "t": 3.74,
+    "q": 0.0472
+   },
+   "Il1b": {
+    "logFC": 0.002,
+    "t": 3.89,
+    "q": 0.0396
+   },
+   "Lyz2": {
+    "logFC": -0.005,
+    "t": -1.28,
+    "q": 0.5683
+   },
+   "Snap25": {
+    "logFC": -0.087,
+    "t": -1.4,
+    "q": 0.5231
+   }
+  },
+  "Neuron.PE": {
+   "n_samples": 8,
+   "groups_present": [
+    "B16F10",
+    "Con"
+   ],
+   "n_genes": 30691,
+   "n_q05": 347,
+   "Gal": {
+    "logFC": 0.235,
+    "t": 2.4,
+    "q": 0.3396
+   },
+   "Scn10a": {
+    "logFC": -0.097,
+    "t": -1.92,
+    "q": 0.4763
+   },
+   "Ifit1": {
+    "logFC": -0.089,
+    "t": -1.14,
+    "q": 0.7189
+   },
+   "Ifit2": {
+    "logFC": -0.02,
+    "t": -2.1,
+    "q": 0.4172
+   },
+   "Isg15": {
+    "logFC": -0.0,
+    "t": -0.01,
+    "q": 0.999
+   },
+   "Cx3cr1": {
+    "logFC": 0.003,
+    "t": 2.75,
+    "q": 0.2514
+   },
+   "Gfap": {
+    "logFC": 0.001,
+    "t": 1.8,
+    "q": 0.5209
+   },
+   "Il1b": {
+    "logFC": 0.001,
+    "t": 1.74,
+    "q": 0.5422
+   },
+   "Lyz2": {
+    "logFC": -0.0,
+    "t": -0.03,
+    "q": 0.9972
+   },
+   "Snap25": {
+    "logFC": -0.028,
+    "t": -0.46,
+    "q": 0.861
+   }
+  }
+ }
+}

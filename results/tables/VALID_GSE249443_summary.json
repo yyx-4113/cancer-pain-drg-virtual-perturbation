@@ -1,0 +1,10 @@
+{
+  "dataset": "GSE249443",
+  "n_case": 3,
+  "n_ctrl": 3,
+  "n_genes": 17966,
+  "muscle_score_BCP": -0.8108011840296224,
+  "muscle_score_sham": 0.810801184029622,
+  "n_sig_q05_unadj": 28,
+  "n_sig_q05_adj": 0
+}

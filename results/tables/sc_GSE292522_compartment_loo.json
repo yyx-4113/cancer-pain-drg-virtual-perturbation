@@ -1,0 +1,66 @@
+{
+  "note": "leave-one-animal-out of the per-compartment composite ISG score",
+  "method": "Welch t-test, tumour vs control, ISG score",
+  "tests": {
+    "Neuron": {
+      "full_mean_diff_tumour_minus_con": 0.0013,
+      "full_p": 0.9255,
+      "loo_diff_range": [
+        -0.0055,
+        0.0096
+      ],
+      "loo_p_max": 0.9345,
+      "loo_runs_sign_consistent": 4,
+      "loo_runs_p_lt_0.05": 0,
+      "loo_runs_total": 8
+    },
+    "SatelliteGlia": {
+      "full_mean_diff_tumour_minus_con": -0.255,
+      "full_p": 0.1418,
+      "loo_diff_range": [
+        -0.3013,
+        -0.1256
+      ],
+      "loo_p_max": 0.2328,
+      "loo_runs_sign_consistent": 8,
+      "loo_runs_p_lt_0.05": 1,
+      "loo_runs_total": 8
+    },
+    "Schwann": {
+      "full_mean_diff_tumour_minus_con": -0.0573,
+      "full_p": 0.1014,
+      "loo_diff_range": [
+        -0.079,
+        -0.0421
+      ],
+      "loo_p_max": 0.2437,
+      "loo_runs_sign_consistent": 8,
+      "loo_runs_p_lt_0.05": 2,
+      "loo_runs_total": 8
+    },
+    "Neuron.NF": {
+      "full_mean_diff_tumour_minus_con": 0.0046,
+      "full_p": 0.7188,
+      "loo_diff_range": [
+        -0.0007,
+        0.0125
+      ],
+      "loo_p_max": 0.986,
+      "loo_runs_sign_consistent": 6,
+      "loo_runs_p_lt_0.05": 0,
+      "loo_runs_total": 8
+    },
+    "Neuron.PE": {
+      "full_mean_diff_tumour_minus_con": -0.0075,
+      "full_p": 0.5999,
+      "loo_diff_range": [
+        -0.0159,
+        0.0008
+      ],
+      "loo_p_max": 0.9488,
+      "loo_runs_sign_consistent": 7,
+      "loo_runs_p_lt_0.05": 0,
+      "loo_runs_total": 8
+    }
+  }
+}

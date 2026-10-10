@@ -1,0 +1,42 @@
+{
+  "pair": "Bone_D7 vs PTX",
+  "genes": {
+    "Cd68": {
+      "delta_full": 3.4183,
+      "loo_min": 3.2795,
+      "loo_max": 3.5199,
+      "sign_stable": true
+    },
+    "Aif1": {
+      "delta_full": 3.0757,
+      "loo_min": 2.8821,
+      "loo_max": 3.206,
+      "sign_stable": true
+    },
+    "Gal": {
+      "delta_full": -2.5921,
+      "loo_min": -2.6902,
+      "loo_max": -2.3865,
+      "sign_stable": true
+    },
+    "Ccl2": {
+      "delta_full": 1.1275,
+      "loo_min": 0.8615,
+      "loo_max": 1.3185,
+      "sign_stable": true
+    },
+    "Il1b": {
+      "delta_full": 1.2305,
+      "loo_min": 1.0887,
+      "loo_max": 1.3468,
+      "sign_stable": true
+    },
+    "Scn10a": {
+      "delta_full": -0.7022,
+      "loo_min": -0.7941,
+      "loo_max": -0.5124,
+      "sign_stable": true
+    }
+  },
+  "n_animals_each": 4
+}

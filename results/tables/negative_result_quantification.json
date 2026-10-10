@@ -1,0 +1,66 @@
+{
+  "T1_target_vs_control": {
+    "universe": "per_contrast x knockout (deduplicated; 132 independent tests)",
+    "n_target_tests": 102,
+    "n_control_tests": 30,
+    "mwu_abs_z_two_sided_p": 0.001914,
+    "median_abs_z_target": 1.0729,
+    "median_abs_z_control": 2.4702,
+    "mean_abs_z_target": 1.4635,
+    "mean_abs_z_control": 2.5768,
+    "interpretation": "the layer is ANTI-SELECTIVE: negative-control modules carry larger standardised effects than analgesic-target modules (median |z| 2.47 vs 1.07, two-sided MWU p=0.0019). This is stronger than 'no discrimination'"
+  },
+  "T2_randset_null_selectivity": {
+    "universe": "per_contrast x knockout (deduplicated)",
+    "randset_significant_total": 32,
+    "randset_significant_targets": 18,
+    "randset_significant_controls": 14,
+    "control_share_universe": 0.2273,
+    "control_share_significant": 0.4375,
+    "binomial_overrepresentation_p": 0.00671,
+    "with_bootstrap_ci_excluding_zero": 32,
+    "interpretation": "control modules are over-represented among randset-significant tests (14/32 vs base rate 30/132, binomial p=0.0067): the null that 'confirms' targets also confirms controls"
+  },
+  "T4_target_rank_percentile": {
+    "median_pct_from_top_absz": 55.7,
+    "mean_pct_from_top_absz": 54.3,
+    "median_pct_from_top_signedz": 50.8,
+    "median_target_absz": 1.0729,
+    "median_percentile_absz_below": 44.7,
+    "all_absz_median": 1.3248,
+    "n_targets_in_top_half_absz": 45,
+    "n_targets": 102,
+    "interpretation": "analgesic targets sit just below the median of the effect-size distribution (target median |z| 1.0729 = 44.7th percentile; no enrichment)"
+  },
+  "T3_single_cell_power": {
+    "n_per_group": 4,
+    "mde_cohens_d_genes": 2.38,
+    "median_se_expressed_genes": 0.2048,
+    "detectable_abs_log2FC_genes": 0.488,
+    "myeloid_fraction_Con": 0.00117,
+    "myeloid_fraction_B16F10": 0.00052,
+    "myeloid_observed_cohens_d": 1.267,
+    "myeloid_mde_fraction_diff": 0.00123,
+    "myeloid_observed_mean_diff": 0.00065,
+    "myeloid_ratio_B16F10_over_Con": 0.44,
+    "interpretation": "gene-level DE is well powered (detected Ifit2 at logFC -0.048, q=0.042); the ~55% drop in myeloid fraction is underpowered (observed d=1.267 vs MDE d=2.38) and is an inconclusive null, not evidence of equality"
+  },
+  "T5_reversal_score_power": {
+    "design": "KO/OE exact mirrors, r=-1.000; each Delta is one estimate (no independent 2v2 arm); SE = bootstrap SE of Delta",
+    "median_bootstrap_se_delta": 0.0185,
+    "mde_delta_units_normal_approx": 0.0518,
+    "mde_delta_units_t_based": 0.1046,
+    "mde_cohens_d_unpaired_n2n2_t_based": 5.653,
+    "max_target_delta_observed": 0.2743,
+    "max_target_delta_module": "Glial / immune",
+    "max_target_delta_pair": "Bone_D7 vs PTX",
+    "max_delta_over_mde_normal": 5.29,
+    "median_target_abs_delta": 0.0313,
+    "n_target_tests": 102,
+    "n_target_tests_exceeding_mde_normal": 41,
+    "n_target_tests_exceeding_mde_t_based": 23,
+    "n_exact_permutation_p_lt_0.05": 31,
+    "n_independent_tests": 132,
+    "interpretation": "the layer has per-test signal (MDE = 2.8 x median SE 0.0185 = 0.0518 log-units, normal approx; 0.1046 t-based; largest target Delta 0.274 = 5.3 x MDE; 31/132 tests exact p<0.05), but it resolves large effects only: the median target |Delta| 0.031 lies below MDE, and only 41/102 targets exceed it. The failure is anti-selectivity (see T1/T2) plus a power floor for the median target, not a total absence of signal"
+  }
+}

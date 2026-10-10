@@ -1,0 +1,16 @@
+# Reproducibility environment for the cancer-pain virtual-perturbation study.
+#
+# Every number in the manuscript was produced with exactly these versions.
+# statsmodels is NOT optional: it supplies the lowess fit used by limma-trend.
+# Without it _limma.fit_limma raises SystemExit rather than silently falling
+# back to a constant prior variance (an earlier revision did fall back
+# silently, which would have changed every moderated t in the study without
+# leaving any trace in the output).
+#
+#   python -m venv .venv && .venv/Scripts/pip install -r requirements.txt
+
+numpy==2.4.6
+scipy==1.18.1
+pandas==2.3.3
+statsmodels==0.15.0
+matplotlib==3.11.1

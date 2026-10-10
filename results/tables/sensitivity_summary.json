@@ -1,0 +1,23 @@
+{
+  "reference": {
+    "alpha": 0.55,
+    "topk": 12,
+    "hv": 3000,
+    "frac": 0.4
+  },
+  "spearman_network_vs_additive": 0.9285714285714287,
+  "grid_discovery_min_spearman": 0.9593450028232637,
+  "grid_discovery_median_spearman": 0.9875776397515529,
+  "grid_discovery_min_top5_overlap": 5,
+  "grid_delta_min_spearman": 0.9887069452286844,
+  "grid_delta_median_spearman": 0.9943534726143423,
+  "de_q05_by_frac": {
+    "0.4": 320,
+    "0.2": 325,
+    "0.3": 321,
+    "0.5": 319,
+    "0.6": 316,
+    "none": 323
+  },
+  "n_grid_points": 75
+}

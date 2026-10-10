@@ -1,0 +1,41 @@
+compartment    gene     fullLFC   LOOmin   LOOmax  flip Welch p full  maxLOO p
+Neuron         Gal       +1.472   +1.307   +1.600     0       0.0016    0.0204
+Neuron         Scn10a    -0.247   -0.285   -0.221     0       0.0050    0.0363
+Neuron         Ifit2     -0.049   -0.061   -0.038     0       0.0326    0.1280
+Neuron         Cx3cr1    +0.012   +0.009   +0.013     0       0.0276    0.0956
+Neuron.NF      Gal       +2.537   +2.420   +2.669     0       0.0000    0.0015
+Neuron.NF      Scn10a    -0.399   -0.444   -0.362     0       0.0016    0.0109
+Neuron.NF      Il1b      +0.002   +0.001   +0.002     0       0.0474    0.1499
+Neuron.NF      Cx3cr1    +0.019   +0.014   +0.021     0       0.0259    0.0845
+Neuron.NF      Gfap      +0.001   +0.001   +0.001     0       0.0045    0.0305
+SatelliteGlia  Isg15     -0.630   -0.794   -0.480     0       0.0385    0.1397
+SatelliteGlia  Ifit1     -0.523   -0.632   -0.260     0       0.1418    0.2428
+SatelliteGlia  Calca     -0.404   -0.493   -0.292     0       0.0493    0.1290
+Schwann        Gal       +0.453   +0.361   +0.537     0       0.0179    0.0910
+Schwann        Ccl2      -0.207   -0.251   -0.167     0       0.0237    0.1089
+Schwann        Snap25    -0.302   -0.371   -0.236     0       0.0211    0.0735
+Endothelial    Lyz2      -0.814   -1.090   -0.464     0       0.1509    0.3461
+Endothelial    Gal       +0.671   +0.549   +0.743     0       0.0059    0.0385
+Neuron.PE      Gal       +0.235   +0.130   +0.332     0       0.1552    0.3101
+
+=== moderated limma-trend q, refit per LOO on a fixed 3000-gene universe ===
+compartment    gene       fullq  minLOOq  maxLOOq   n q<.05
+Neuron         Gal       0.0002   0.0000   0.0013     8/8
+Neuron         Scn10a    0.0064   0.0036   0.0265     8/8
+Neuron         Ifit2        nan      nan      nan     0/8
+Neuron         Cx3cr1       nan      nan      nan     0/8
+Neuron.NF      Gal       0.0000   0.0000   0.0000     8/8
+Neuron.NF      Scn10a    0.0012   0.0003   0.0055     8/8
+Neuron.NF      Il1b         nan      nan      nan     0/8
+Neuron.NF      Cx3cr1       nan      nan      nan     0/8
+Neuron.NF      Gfap         nan      nan      nan     0/8
+SatelliteGlia  Isg15     0.0829   0.0097   0.8039     1/8
+SatelliteGlia  Ifit1     0.1954   0.0593   0.8281     0/8
+SatelliteGlia  Calca     0.8430   0.7069   0.8985     0/8
+Schwann        Gal       0.0041   0.0002   0.0292     8/8
+Schwann        Ccl2      0.0205   0.0045   0.0600     6/8
+Schwann        Snap25    0.0212   0.0037   0.0626     4/8
+Endothelial    Lyz2      0.0001   0.0000   0.3575     7/8
+Endothelial    Gal       0.0007   0.0003   0.0526     7/8
+Neuron.PE      Gal       0.1842   0.0352   0.3449     1/8
+DONE stage6

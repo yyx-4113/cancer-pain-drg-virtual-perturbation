@@ -1,0 +1,37 @@
+{
+  "dataset": "GSE292522 (10x scRNA-seq mouse DRG, B16F10 melanoma model)",
+  "n_samples": 8,
+  "groups": {
+    "Con": 4,
+    "B16F10": 4
+  },
+  "total_cells": 55967,
+  "cells_per_sample": {
+    "Sample1_DRG_Con_rep1": 6514,
+    "Sample2_DRG_Con_rep2": 7322,
+    "Sample3_DRG_Con_rep3": 6019,
+    "Sample4_DRG_Con_rep4": 5817,
+    "Sample5_DRG_B16F10_rep1": 6175,
+    "Sample6_DRG_B16F10_rep2": 7480,
+    "Sample7_DRG_B16F10_rep3": 9826,
+    "Sample8_DRG_B16F10_rep4": 6814
+  },
+  "pseudobulk_DE": {
+    "n_genes": 34603,
+    "n_up_B16F10_q05": 1517,
+    "n_down_B16F10_q05": 703
+  },
+  "ISG_up_in_B16F10": [],
+  "myeloid_fraction_mean": {
+    "Con": 0.0011698824584417448,
+    "B16F10": 0.0005174846200633125
+  },
+  "myeloid_MWU_p_twosided": 0.11428571428571428,
+  "myeloid_MWU_p_less": 0.05714285714285714,
+  "convergent_validation_vs_bulk_D7": {
+    "n_shared_genes": 12158,
+    "spearman_rho": 0.09845456164172446,
+    "spearman_p": 1.4160029287915969e-27,
+    "shared_with_bulk_D7": 12158
+  }
+}

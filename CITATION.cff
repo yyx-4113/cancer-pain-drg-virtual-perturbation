@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: >-
+  If you use this analysis code or the derived artefacts, please cite the
+  accompanying manuscript (see the reference section) and this repository.
+title: >-
+  Divergent dorsal root ganglion programs in bone cancer pain and
+  chemotherapy-induced peripheral neuropathy: cross-study reanalysis code
+  and a negative-control calibration of in-silico perturbation
+type: software
+authors:
+  - family-names: Yang
+    given-names: Yongxin
+    orcid: "https://orcid.org/0009-0004-9698-6552"
+    affiliation: >-
+      Department of Anesthesiology, The Second Affiliated Hospital of Fujian
+      University of Traditional Chinese Medicine, Fuzhou, Fujian 350003, China
+repository-code: "https://github.com/yyx-4113/cancer-pain-drg-virtual-perturbation"
+url: "https://github.com/yyx-4113/cancer-pain-drg-virtual-perturbation"
+license: MIT
+version: 1.0.0
+date-released: "2026-10-10"
+keywords:
+  - cancer pain
+  - dorsal root ganglion
+  - chemotherapy-induced peripheral neuropathy
+  - type-I interferon
+  - in-silico perturbation
+  - negative control
+  - reproducibility
+preferred-citation:
+  type: article
+  title: >-
+    Divergent dorsal root ganglion programs in bone cancer pain and
+    chemotherapy-induced peripheral neuropathy: an exact cross-study
+    reanalysis and a negative-control calibration of in-silico perturbation
+  authors:
+    - family-names: Yang
+      given-names: Yongxin
+      orcid: "https://orcid.org/0009-0004-9698-6552"
+      affiliation: >-
+        Department of Anesthesiology, The Second Affiliated Hospital of Fujian
+        University of Traditional Chinese Medicine, Fuzhou, Fujian 350003, China
+  year: 2026
+  journal: "Manuscript in preparation"

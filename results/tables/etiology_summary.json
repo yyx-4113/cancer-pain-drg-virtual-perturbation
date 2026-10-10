@@ -1,0 +1,50 @@
+{
+  "seed": 20261009,
+  "n_boot": 2000,
+  "n_randset": 500,
+  "alpha": 0.55,
+  "hv": 3000,
+  "topk": 12,
+  "common_network_genes_per_contrast": 3038,
+  "common_network_genes_pooled_by_study": 3038,
+  "studies": {
+    "GSE149648": "bone cancer pain (Walker 256 tibia), GPL24782, rat DRG",
+    "GSE160543": "paclitaxel/oxaliplatin CIPN, GPL24782, rat DRG"
+  },
+  "shared_genes": 13601,
+  "contrasts": {
+    "Bone_D14": {
+      "case": 4,
+      "control": 4
+    },
+    "Bone_D7": {
+      "case": 4,
+      "control": 4
+    },
+    "PTX": {
+      "case": 4,
+      "control": 4
+    },
+    "OXA": {
+      "case": 4,
+      "control": 4
+    }
+  },
+  "pairs_tested": [
+    "Bone_D14|Bone_D7",
+    "Bone_D14|PTX",
+    "Bone_D14|OXA",
+    "Bone_D7|PTX",
+    "Bone_D7|OXA",
+    "PTX|OXA"
+  ],
+  "n_rows_raw": 528,
+  "n_independent_tests_per_scope": 132,
+  "n_independent_tests_total": 264,
+  "n_sig_perm_q05_indep": 0,
+  "n_sig_perm_q05_percontrast_indep": 0,
+  "n_sig_randset_q05_percontrast_indep": 32,
+  "min_q_permutation_per_contrast": 0.16544728481068005,
+  "min_q_randset_per_contrast": 0.021956087824351295,
+  "max_degenerate_boot": 0
+}

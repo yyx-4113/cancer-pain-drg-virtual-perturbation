@@ -1,0 +1,16 @@
+target,direction,desc,R,in_network,z,p_perm,q_perm,site
+Cacna2d1,KO,alpha2delta-1(加巴喷丁类),0.13545561362673023,True,0.5001229313466913,0.33483258370814595,0.6931534232883558,bone
+Scn9a,KO,Nav1.7 钠通道阻滞剂,0.04659963232629038,True,0.19081623753659357,0.4382808595702149,0.6931534232883558,bone
+Htr1a,OE,5-HT1A 激动,-0.12703232420873353,True,-0.41359469383377423,0.631184407796102,0.6931534232883558,bone
+Trpm3,KO,TRPM3 拮抗剂,-0.17335282527325033,True,-0.5748358486801716,0.6931534232883558,0.6931534232883558,bone
+Oprm1,OE,阿片类(mu受体激动),,False,,,,bone
+Scn10a,KO,Nav1.8 钠通道阻滞剂,,False,,,,bone
+Scn11a,KO,Nav1.9 钠通道阻滞剂,,False,,,,bone
+Trpv1,KO,TRPV1 拮抗剂,,False,,,,bone
+Ptgs2,KO,COX-2 抑制剂(NSAIDs),,False,,,,bone
+Ptgs1,KO,COX-1 抑制剂(NSAIDs),,False,,,,bone
+Cacna2d2,KO,alpha2delta-2(加巴喷丁类),,False,,,,bone
+Grin2b,KO,NMDA 2B(氯胺酮),,False,,,,bone
+Slc6a4,KO,SERT(SNRI 度洛西汀),,False,,,,bone
+Slc6a2,KO,NET(SNRI 度洛西汀),,False,,,,bone
+Kcnq2,KO,Kv7.2 channel,,False,,,,bone

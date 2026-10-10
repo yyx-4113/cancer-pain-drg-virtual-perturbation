@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------------------
+# Data are NOT redistributed in this repository.
+# GEO is the canonical source for every dataset; see README "Data sources"
+# for accessions and fetch commands.  data/raw/ and the GSE292522 per-sample
+# matrices are large (1.4 GB / 679 MB) and fully regenerable, so they are
+# deliberately excluded.  The small bulk-processed matrices under
+# data/processed/*.csv are kept so the pipeline can be re-run offline.
+# ---------------------------------------------------------------------------
+data/raw/
+data/processed/GSE292522/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Transient
+*.tmp
+*.bak

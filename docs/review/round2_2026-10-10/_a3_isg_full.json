@@ -1,0 +1,118 @@
+done Endothelial
+done Erythrocyte
+done Fibroblast
+done Neuron
+done Neuron.NF
+done Neuron.PE
+done SatelliteGlia
+done Schwann
+{
+ "Endothelial": {
+  "n_samples": 8,
+  "n_genes": 17467,
+  "n_q05": 21,
+  "n_ISG_tested": 35,
+  "ISG_up_q10": {},
+  "ISG_dn_q10": {
+   "Gbp2": -0.733
+  },
+  "n_ISG_up": 13,
+  "median_ISG_logFC": -0.0682
+ },
+ "Erythrocyte": {
+  "n_samples": 6,
+  "n_genes": 14601,
+  "n_q05": 0,
+  "n_ISG_tested": 31,
+  "ISG_up_q10": {},
+  "ISG_dn_q10": {},
+  "n_ISG_up": 21,
+  "median_ISG_logFC": 0.058
+ },
+ "Fibroblast": {
+  "n_samples": 8,
+  "n_genes": 18369,
+  "n_q05": 0,
+  "n_ISG_tested": 34,
+  "ISG_up_q10": {},
+  "ISG_dn_q10": {},
+  "n_ISG_up": 12,
+  "median_ISG_logFC": -0.0307
+ },
+ "Myeloid": {
+  "n_samples": 5,
+  "dropped": true
+ },
+ "Neuron": {
+  "n_samples": 8,
+  "n_genes": 34020,
+  "n_q05": 1558,
+  "n_ISG_tested": 38,
+  "ISG_up_q10": {},
+  "ISG_dn_q10": {
+   "Ifit2": -0.049,
+   "Gbp4": -0.001
+  },
+  "n_ISG_up": 21,
+  "median_ISG_logFC": 0.0002
+ },
+ "Neuron.NF": {
+  "n_samples": 8,
+  "n_genes": 32547,
+  "n_q05": 1886,
+  "n_ISG_tested": 38,
+  "ISG_up_q10": {
+   "Mx1": 0.004,
+   "Mx2": 0.012,
+   "Ifi35": 0.159
+  },
+  "ISG_dn_q10": {
+   "Ifit2": -0.06,
+   "Ifit3": -0.044,
+   "Cxcl10": -0.072,
+   "Gbp4": -0.002
+  },
+  "n_ISG_up": 22,
+  "median_ISG_logFC": 0.0009
+ },
+ "Neuron.PE": {
+  "n_samples": 8,
+  "n_genes": 30640,
+  "n_q05": 349,
+  "n_ISG_tested": 37,
+  "ISG_up_q10": {},
+  "ISG_dn_q10": {},
+  "n_ISG_up": 8,
+  "median_ISG_logFC": -0.0017
+ },
+ "SatelliteGlia": {
+  "n_samples": 8,
+  "n_genes": 16077,
+  "n_q05": 24,
+  "n_ISG_tested": 29,
+  "ISG_up_q10": {},
+  "ISG_dn_q10": {
+   "Ifit1": -0.523,
+   "Ifit2": -0.42,
+   "Isg15": -0.63,
+   "Cxcl10": -1.63,
+   "Rsad2": -0.578,
+   "Gbp2": -0.504,
+   "Ifi47": -0.45
+  },
+  "n_ISG_up": 5,
+  "median_ISG_logFC": -0.1951
+ },
+ "Schwann": {
+  "n_samples": 8,
+  "n_genes": 25189,
+  "n_q05": 228,
+  "n_ISG_tested": 34,
+  "ISG_up_q10": {},
+  "ISG_dn_q10": {
+   "Cxcl10": -0.807
+  },
+  "n_ISG_up": 8,
+  "median_ISG_logFC": -0.0093
+ }
+}

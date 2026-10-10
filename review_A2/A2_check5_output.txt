@@ -1,0 +1,76 @@
+====================================================================================
+5. REVERSAL SCORE REBUILT FROM SCRATCH (Bone_D7 network, 8 animals)
+====================================================================================
+common node set = 3038 genes (repo log: 3038)  match = True
+
+-- rebuilt reversal(KO) vs deposited, all 22 modules, 4 contrasts --
+               module  n  Bone_D7_ko  dep_Bone_D7  diff_Bone_D7  mirr_Bone_D7    PTX_ko   dep_PTX      diff_PTX
+     Opioid receptors  4   -0.064044    -0.064044 -1.623701e-15           0.0 -0.008864 -0.008864 -5.533768e-16
+    Voltage-gated Na+  5   -0.083401    -0.083401 -1.845746e-15           0.0  0.050338  0.050338  2.602085e-15
+     Ca2+ channel a2d  4   -0.042882    -0.042882 -1.089406e-15           0.0  0.077582  0.077582  4.315992e-15
+         TRP channels  4   -0.055818    -0.055818 -1.415534e-15           0.0  0.000921  0.000921  1.015897e-16
+       Purinergic P2X  3   -0.008461    -0.008461 -2.966377e-16           0.0 -0.005290 -0.005290 -3.903128e-16
+     Prostanoid / COX  4    0.003142     0.003142  8.153200e-17           0.0  0.036384  0.036384  2.130240e-15
+     Glutamate / NMDA  3   -0.054079    -0.054079 -1.595946e-15           0.0  0.040557  0.040557  2.713108e-15
+            GABAergic  3   -0.056390    -0.056390 -1.602884e-15           0.0  0.024898  0.024898  1.616762e-15
+        Neuropeptides  5   -0.065023    -0.065023 -1.498801e-15           0.0  0.167152  0.167152  7.854828e-15
+          Cannabinoid  4   -0.026635    -0.026635 -6.765422e-16           0.0 -0.012205 -0.012205 -6.904199e-16
+         Neurotrophin  3   -0.064487    -0.064487 -1.845746e-15           0.0  0.083665  0.083665  5.509482e-15
+ Cytokine / chemokine  4    0.083827     0.083827  2.123302e-15           0.0 -0.049929 -0.049929 -2.879641e-15
+  Toll-like receptors  3    0.056810     0.056810  1.609823e-15           0.0 -0.078385 -0.078385 -5.093148e-15
+       Glial / immune  5    0.157836     0.157836  3.497203e-15           0.0 -0.116453 -0.116453 -5.648260e-15
+Injury / regeneration  3   -0.020320    -0.020320 -5.863365e-16           0.0  0.123727  0.123727  7.868706e-15
+    K+ / HCN channels  5   -0.087456    -0.087456 -1.956768e-15           0.0  0.039918  0.039918  2.019218e-15
+        Monoaminergic  3   -0.029357    -0.029357 -9.055257e-16           0.0 -0.004049 -0.004049 -3.148523e-16
+    CTRL pan-neuronal 10   -0.103540    -0.103540 -1.568190e-15           0.0  0.103269  0.103269  3.483325e-15
+CTRL myelin / Schwann  7   -0.078889    -0.078889 -1.415534e-15           0.0  0.009498  0.009498  3.920475e-16
+    CTRL housekeeping 11   -0.030133    -0.030133 -4.787837e-16           0.0  0.079608  0.079608  2.706169e-15
+      CTRL interferon  8    0.240729     0.240729  3.802514e-15           0.0 -0.008539 -0.008539 -3.729655e-16
+     CTRL erythrocyte  4   -0.076362    -0.076362 -1.582068e-15           0.0 -0.113521 -0.113521 -5.800915e-15
+
+max |rebuilt - deposited| over all modules x contrasts = 9.520e-15
+max |OE - (-KO)| over all modules x contrasts       = 0.000e+00
+=> my independent rebuild reproduces the deposited reversal scores and
+   confirms the KO/OE mirror property to machine precision.
+
+====================================================================================
+6. THE REVERSAL SCORE IS A FUNCTIONAL OF 8 ANIMALS, NOT A 2-vs-2 MEASUREMENT
+====================================================================================
+full-data reversal(KO), Bone_D7, Glial / immune = +0.157836
+  (deposited rev_Bone_D7 = +0.157836)
+
+Leave-one-animal-out (drop 1 of the 8 animals, rebuild network+axis):
+   drop GSM4506602: reversal = +0.153237   (change -0.004599)
+   drop GSM4506603: reversal = +0.153928   (change -0.003908)
+   drop GSM4506604: reversal = +0.147321   (change -0.010515)
+   drop GSM4506605: reversal = +0.142053   (change -0.015783)
+   drop GSM4506610: reversal = +0.154685   (change -0.003151)
+   drop GSM4506611: reversal = +0.160148   (change +0.002312)
+   drop GSM4506612: reversal = +0.155390   (change -0.002446)
+   drop GSM4506613: reversal = +0.152505   (change -0.005331)
+
+   LOO range +0.142053 to +0.160148
+   LOO SD (ddof=1) = 0.005478
+   => a single animal moves the reversal score by up to 0.0158.
+   This LOO SD (0.0055) is a within-contrast sampling SD of the
+   reversal score -- the quantity a power analysis needs. It is
+   comparable to the repo's between-module SD of 0.0741, NOT 0.42.
+
+====================================================================================
+7. MDE REDONE ON THE CORRECT OBJECT
+====================================================================================
+quantity                                                   d     x SE     = MDE
+repo: TTestIndPower nobs1=2 x between-module SD        5.653   0.0741    0.4189
+corrected: unpaired 4v4 x bootstrap SE(Delta)          2.381   0.0185    0.0440
+corrected: paired n=4 x bootstrap SE(Delta)            2.128   0.0185    0.0394
+LOO-based: unpaired 4v4 x LOO SD of reversal           2.381   0.0055    0.0130
+
+   Observed max |Delta| (target modules) = 0.2743
+   Manuscript's claim: 'only powered to detect reversal-score differences
+   exceeding ~0.42 units, whereas the largest observed reversal difference
+   is = 0.27' -> CONCLUSION: underpowered.
+   Recomputed: the design resolves ~0.04 reversal units at 80% power.
+   0.2743 / 0.0441 = 6.2x the MDE.
+   => The paper's OWN exact permutation test agrees: 26 of 132 tests have
+      p_permutation_exact < 0.05 and the smallest p is 0.00143. A design
+      that can only see 0.42 cannot produce p = 0.0014.

@@ -1,0 +1,9 @@
+sample,group,ncells,sg_cells,sg_gfap_umi,sg_gfap_pos_cells,gfap_total_umi,ne_cells,purity_ne
+Sample1_DRG_Con_rep1,Con,6514,46,0.0,0,10.0,5159,0.2962
+Sample2_DRG_Con_rep2,Con,7322,35,0.0,0,12.0,5840,0.3303
+Sample3_DRG_Con_rep3,Con,6019,37,0.0,0,7.0,4606,0.3454
+Sample4_DRG_Con_rep4,Con,5817,25,3.0,1,14.0,4589,0.3173
+Sample5_DRG_B16F10_rep1,B16F10,6175,36,0.0,0,53.0,4226,0.2816
+Sample6_DRG_B16F10_rep2,B16F10,7480,44,2.0,2,23.0,5366,0.2777
+Sample7_DRG_B16F10_rep3,B16F10,9826,108,2.0,2,51.0,5489,0.2128
+Sample8_DRG_B16F10_rep4,B16F10,6814,30,0.0,0,34.0,4890,0.3025

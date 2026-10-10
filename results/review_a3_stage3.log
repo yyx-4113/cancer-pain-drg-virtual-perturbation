@@ -1,0 +1,163 @@
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_stage3_annotation.py:58: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_stage3_annotation.py:58: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_stage3_annotation.py:58: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_stage3_annotation.py:58: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_stage3_annotation.py:58: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_stage3_annotation.py:58: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_stage3_annotation.py:58: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_stage3_annotation.py:58: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+=== T10 cells assigned to 'Erythrocyte' ===
+                 sample  group  n_eryth  median_umi  median_genes_detected  median_umi_from_hbb  frac_umi_hbb  min_genes_detected
+   Sample1_DRG_Con_rep1    Con        5      6281.0                 1122.0               2150.0      0.100982               456.0
+   Sample2_DRG_Con_rep2    Con        4      4402.0                 1163.5                112.5      0.004574               599.0
+   Sample3_DRG_Con_rep3    Con       22      4300.0                  692.0               2264.5      0.465323               447.0
+   Sample4_DRG_Con_rep4    Con        3      1487.0                  615.0                758.0      0.509751               523.0
+Sample5_DRG_B16F10_rep1 B16F10        7      4691.0                  826.0               1589.0      0.043515               476.0
+Sample6_DRG_B16F10_rep2 B16F10        6      1519.0                  513.0                268.5      0.074740               326.0
+Sample7_DRG_B16F10_rep3 B16F10       26      5370.5                 1146.0               2042.0      0.251934               294.0
+Sample8_DRG_B16F10_rep4 B16F10       15      4434.0                  644.0               1676.0      0.589822               432.0
+
+=== T11 runner-up compartment (annotation ambiguity) ===
+  Endothelial    Neuron=1.000
+  Erythrocyte    Neuron=1.000
+  Fibroblast     Neuron=1.000
+  Myeloid        Neuron=1.000
+  Neuron         Schwann=1.000
+  SatelliteGlia  Schwann=1.000
+  Schwann        Neuron=1.000
+  TCell          Neuron=1.000
+
+=== T13 which marker set wins for the median-depth cell ===
+                 sample  group winner_at_median_umi runner_at_median_umi   s_top1   s_top2
+   Sample1_DRG_Con_rep1    Con              Schwann        SatelliteGlia 1.019838 0.495105
+   Sample2_DRG_Con_rep2    Con               Neuron              Schwann 1.695801 0.099021
+   Sample3_DRG_Con_rep3    Con              Schwann        SatelliteGlia 1.188217 0.511931
+   Sample4_DRG_Con_rep4    Con               Neuron              Schwann 1.102237 0.386864
+Sample5_DRG_B16F10_rep1 B16F10              Schwann        SatelliteGlia 0.602787 0.313889
+Sample6_DRG_B16F10_rep2 B16F10              Schwann               Neuron 0.652050 0.227004
+Sample7_DRG_B16F10_rep3 B16F10              Schwann               Neuron 0.377008 0.227004
+Sample8_DRG_B16F10_rep4 B16F10               Neuron           Fibroblast 1.521879 0.451342
+
+=== T11b SatelliteGlia / Schwann: do these cells express their own markers? ===
+                 sample  group  n_cells  n_with_any_Gfap_or_Slc1a3  frac
+   Sample1_DRG_Con_rep1    Con       46                         46   1.0
+   Sample1_DRG_Con_rep1    Con     1232                       1232   1.0
+   Sample2_DRG_Con_rep2    Con       35                         35   1.0
+   Sample2_DRG_Con_rep2    Con     1245                       1245   1.0
+   Sample3_DRG_Con_rep3    Con       37                         37   1.0
+   Sample3_DRG_Con_rep3    Con     1215                       1215   1.0
+   Sample4_DRG_Con_rep4    Con       25                         25   1.0
+   Sample4_DRG_Con_rep4    Con     1122                       1122   1.0
+Sample5_DRG_B16F10_rep1 B16F10       36                         36   1.0
+Sample5_DRG_B16F10_rep1 B16F10     1649                       1649   1.0
+Sample6_DRG_B16F10_rep2 B16F10       44                         44   1.0
+Sample6_DRG_B16F10_rep2 B16F10     1842                       1842   1.0
+Sample7_DRG_B16F10_rep3 B16F10      108                        108   1.0
+Sample7_DRG_B16F10_rep3 B16F10     3957                       3957   1.0
+Sample8_DRG_B16F10_rep4 B16F10       30                         30   1.0
+Sample8_DRG_B16F10_rep4 B16F10     1739                       1739   1.0
+
+=== T9 compositional test: gene logFC vs compartment denominator shift ===
+  Endothelial    log2(B16/Con total counts)=-0.3911  median_logFC=+0.0013  frac(logFC>den)=0.998  R2_vs_pure_shift=0.0000
+  Erythrocyte    log2(B16/Con total counts)=+0.5849  median_logFC=+0.0089  frac(logFC>den)=0.015  R2_vs_pure_shift=0.0000
+C:\Users\Administrator\.workbuddy\binaries\python\envs\default\Lib\site-packages\numpy\lib\_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\Users\Administrator\.workbuddy\binaries\python\envs\default\Lib\site-packages\numpy\lib\_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+  Fibroblast     log2(B16/Con total counts)=+1.2636  median_logFC=+0.0048  frac(logFC>den)=0.000  R2_vs_pure_shift=nan
+C:\Users\Administrator\.workbuddy\binaries\python\envs\default\Lib\site-packages\numpy\lib\_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\Users\Administrator\.workbuddy\binaries\python\envs\default\Lib\site-packages\numpy\lib\_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+  Neuron         log2(B16/Con total counts)=-0.1592  median_logFC=+0.0000  frac(logFC>den)=0.996  R2_vs_pure_shift=nan
+C:\Users\Administrator\.workbuddy\binaries\python\envs\default\Lib\site-packages\numpy\lib\_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\Users\Administrator\.workbuddy\binaries\python\envs\default\Lib\site-packages\numpy\lib\_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+  Neuron.NF      log2(B16/Con total counts)=-0.2808  median_logFC=+0.0001  frac(logFC>den)=0.998  R2_vs_pure_shift=nan
+  Neuron.PE      log2(B16/Con total counts)=+0.0426  median_logFC=+0.0001  frac(logFC>den)=0.032  R2_vs_pure_shift=0.0000
+C:\Users\Administrator\.workbuddy\binaries\python\envs\default\Lib\site-packages\numpy\lib\_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\Users\Administrator\.workbuddy\binaries\python\envs\default\Lib\site-packages\numpy\lib\_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+  SatelliteGlia  log2(B16/Con total counts)=+0.4357  median_logFC=+0.0008  frac(logFC>den)=0.001  R2_vs_pure_shift=nan
+  Schwann        log2(B16/Con total counts)=+0.7492  median_logFC=+0.0001  frac(logFC>den)=0.000  R2_vs_pure_shift=0.0000
+
+=== T12 resolution of the 4v4 MWU discrimination test ===
+  C(8,4) = 70 label permutations
+  minimum attainable two-sided MWU p at n=4 vs 4 = 2/70 = 0.0286
+  compartments tested = 7; p<0.05 uncorrected = ['SatelliteGlia']
+  BH across the 7 compartments: {'SatelliteGlia': 0.2002, 'Schwann': 0.4001, 'Endothelial': 0.4667, 'Neuron.PE': 0.85, 'Fibroblast': 1.24, 'Neuron': 1.1667, 'Neuron.NF': 1.0}
+
+=== SatelliteGlia ISG per animal (the only p<0.05 compartment) ===
+                 sample  group  value
+   Sample1_DRG_Con_rep1    Con 0.4266
+   Sample2_DRG_Con_rep2    Con 0.4229
+   Sample3_DRG_Con_rep3    Con 0.4472
+   Sample4_DRG_Con_rep4    Con 0.9501
+Sample5_DRG_B16F10_rep1 B16F10 0.2250
+Sample6_DRG_B16F10_rep2 B16F10 0.2983
+Sample7_DRG_B16F10_rep3 B16F10 0.2986
+Sample8_DRG_B16F10_rep4 B16F10 0.4048
+  Con values sorted: [0.4229 0.4266 0.4472 0.9501]
+Traceback (most recent call last):
+  File "D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_stage3_annotation.py", line 191, in <module>
+    print(f"  Con rep4 = {sg[sg.sample.str.contains('rep4')].value.iloc[0]:.4f}; "
+                             ^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'str'

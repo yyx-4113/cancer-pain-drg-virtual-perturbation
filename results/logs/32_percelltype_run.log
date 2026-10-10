@@ -1,0 +1,70 @@
+[32] loading + annotating 8 samples (aggregating per compartment) ...
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\32_percelltype_sc.py:93: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+  Sample1_DRG_Con_rep1 [Con] n=6514 neuron=0.79 myeloid=0.0005 glia=0.007
+  Sample2_DRG_Con_rep2 [Con] n=7322 neuron=0.80 myeloid=0.0014 glia=0.005
+  Sample3_DRG_Con_rep3 [Con] n=6019 neuron=0.77 myeloid=0.0020 glia=0.006
+  Sample4_DRG_Con_rep4 [Con] n=5817 neuron=0.79 myeloid=0.0009 glia=0.004
+  Sample5_DRG_B16F10_rep1 [B16F10] n=6175 neuron=0.68 myeloid=0.0008 glia=0.006
+  Sample6_DRG_B16F10_rep2 [B16F10] n=7480 neuron=0.72 myeloid=0.0004 glia=0.006
+  Sample7_DRG_B16F10_rep3 [B16F10] n=9826 neuron=0.56 myeloid=0.0007 glia=0.011
+  Sample8_DRG_B16F10_rep4 [B16F10] n=6814 neuron=0.72 myeloid=0.0001 glia=0.004
+[32] per-compartment limma-trend across 4+4 animals ...
+  [Neuron] n_samples=8 DE genes(q<.05)=1559
+  [SatelliteGlia] n_samples=8 DE genes(q<.05)=25
+  [Schwann] n_samples=8 DE genes(q<.05)=228
+  [Endothelial] n_samples=8 DE genes(q<.05)=21
+  [Fibroblast] n_samples=8 DE genes(q<.05)=0
+  [Erythrocyte] n_samples=6 DE genes(q<.05)=0
+  [Neuron.NF] n_samples=8 DE genes(q<.05)=1890
+  [Neuron.PE] n_samples=8 DE genes(q<.05)=349
+{
+  "dataset": "GSE292522 (10x scRNA-seq mouse DRG, B16F10 model)",
+  "annotation": "marker-score assignment (Usoskin 2015 DRG markers, ref [15])",
+  "inference_unit": "animal (per-sample pseudobulk per compartment), n=4+4",
+  "celltype_ISG_discrimination": {
+    "Neuron": {
+      "mean_Con": 0.1251,
+      "mean_B16F10": 0.1264,
+      "MWU_p": 1.0
+    },
+    "SatelliteGlia": {
+      "mean_Con": 0.5617,
+      "mean_B16F10": 0.3067,
+      "MWU_p": 0.0286
+    },
+    "Schwann": {
+      "mean_Con": 0.3438,
+      "mean_B16F10": 0.2865,
+      "MWU_p": 0.1143
+    },
+    "Endothelial": {
+      "mean_Con": 0.9467,
+      "mean_B16F10": 0.8359,
+      "MWU_p": 0.2
+    },
+    "Fibroblast": {
+      "mean_Con": 0.3221,
+      "mean_B16F10": 0.2987,
+      "MWU_p": 0.8857
+    },
+    "Neuron.NF": {
+      "mean_Con": 0.1122,
+      "mean_B16F10": 0.1168,
+      "MWU_p": 1.0
+    },
+    "Neuron.PE": {
+      "mean_Con": 0.1499,
+      "mean_B16F10": 0.1424,
+      "MWU_p": 0.4857
+    }
+  },
+  "note": "per-compartment limma-trend; see sc_GSE292522_celltype_DE.csv"
+}
+DONE 32

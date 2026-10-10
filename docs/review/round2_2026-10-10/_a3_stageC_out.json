@@ -1,0 +1,161 @@
+done Sample1_DRG_Con_rep1 strict_n=591
+done Sample2_DRG_Con_rep2 strict_n=571
+done Sample3_DRG_Con_rep3 strict_n=481
+done Sample4_DRG_Con_rep4 strict_n=476
+done Sample5_DRG_B16F10_rep1 strict_n=497
+done Sample6_DRG_B16F10_rep2 strict_n=728
+done Sample7_DRG_B16F10_rep3 strict_n=691
+done Sample8_DRG_B16F10_rep4 strict_n=759
+{
+ "strict_neuron_DE": {
+  "n_samples": 8,
+  "n_genes": 27228,
+  "n_q05": 73,
+  "cells_per_sample": {},
+  "Gal": {
+   "logFC": 0.781,
+   "t": 3.31,
+   "q": 0.353
+  },
+  "Scn10a": {
+   "logFC": -0.135,
+   "t": -2.5,
+   "q": 0.59
+  },
+  "Snap25": {
+   "logFC": -0.143,
+   "t": -1.48,
+   "q": 0.7957
+  },
+  "Nefl": {
+   "logFC": -0.139,
+   "t": -1.43,
+   "q": 0.7957
+  },
+  "Ifit2": {
+   "logFC": -0.016,
+   "t": -1.08,
+   "q": 0.7957
+  },
+  "Ifit1": {
+   "logFC": -0.07,
+   "t": -0.91,
+   "q": 0.7957
+  },
+  "Isg15": {
+   "logFC": -0.027,
+   "t": -0.66,
+   "q": 0.8357
+  },
+  "Cx3cr1": {
+   "logFC": 0.004,
+   "t": 3.24,
+   "q": 0.369
+  },
+  "Gfap": {
+   "logFC": -0.0,
+   "t": -0.6,
+   "q": 0.8554
+  },
+  "Cd68": {
+   "logFC": 0.001,
+   "t": 0.64,
+   "q": 0.841
+  },
+  "Aif1": {
+   "logFC": 0.004,
+   "t": 0.52,
+   "q": 0.8775
+  }
+ },
+ "argmax_neuron_bin_profile": {
+  "Sample1_DRG_Con_rep1": {
+   "n_bin": 5159,
+   "frac_with_pan_ge20": 0.5741422756348129,
+   "median_pan_counts": 38.0,
+   "median_mye_counts": 5.0,
+   "runner_up_frac": {
+    "Schwann": 0.7432,
+    "SatelliteGlia": 0.2028,
+    "Fibroblast": 0.0417
+   }
+  },
+  "Sample2_DRG_Con_rep2": {
+   "n_bin": 5840,
+   "frac_with_pan_ge20": 0.6082191780821918,
+   "median_pan_counts": 47.0,
+   "median_mye_counts": 6.0,
+   "runner_up_frac": {
+    "Schwann": 0.7779,
+    "SatelliteGlia": 0.1668,
+    "Fibroblast": 0.0443
+   }
+  },
+  "Sample3_DRG_Con_rep3": {
+   "n_bin": 4606,
+   "frac_with_pan_ge20": 0.5386452453321754,
+   "median_pan_counts": 32.0,
+   "median_mye_counts": 4.0,
+   "runner_up_frac": {
+    "Schwann": 0.6785,
+    "SatelliteGlia": 0.196,
+    "Fibroblast": 0.0756
+   }
+  },
+  "Sample4_DRG_Con_rep4": {
+   "n_bin": 4589,
+   "frac_with_pan_ge20": 0.47570276748747004,
+   "median_pan_counts": 16.0,
+   "median_mye_counts": 3.0,
+   "runner_up_frac": {
+    "Schwann": 0.7036,
+    "SatelliteGlia": 0.2386,
+    "Fibroblast": 0.0431
+   }
+  },
+  "Sample5_DRG_B16F10_rep1": {
+   "n_bin": 4226,
+   "frac_with_pan_ge20": 0.5210601041173687,
+   "median_pan_counts": 25.0,
+   "median_mye_counts": 3.0,
+   "runner_up_frac": {
+    "Schwann": 0.7021,
+    "SatelliteGlia": 0.2291,
+    "Fibroblast": 0.0577
+   }
+  },
+  "Sample6_DRG_B16F10_rep2": {
+   "n_bin": 5366,
+   "frac_with_pan_ge20": 0.5519940365262765,
+   "median_pan_counts": 29.0,
+   "median_mye_counts": 4.0,
+   "runner_up_frac": {
+    "Schwann": 0.6864,
+    "SatelliteGlia": 0.2296,
+    "Fibroblast": 0.0675
+   }
+  },
+  "Sample7_DRG_B16F10_rep3": {
+   "n_bin": 5489,
+   "frac_with_pan_ge20": 0.625432683548916,
+   "median_pan_counts": 49.0,
+   "median_mye_counts": 6.0,
+   "runner_up_frac": {
+    "Schwann": 0.7792,
+    "SatelliteGlia": 0.1386,
+    "Fibroblast": 0.0649
+   }
+  },
+  "Sample8_DRG_B16F10_rep4": {
+   "n_bin": 4890,
+   "frac_with_pan_ge20": 0.5595092024539877,
+   "median_pan_counts": 31.0,
+   "median_mye_counts": 4.0,
+   "runner_up_frac": {
+    "Schwann": 0.6867,
+    "SatelliteGlia": 0.2268,
+    "Fibroblast": 0.0673
+   }
+  }
+ }
+}

@@ -1,0 +1,9 @@
+sample,group,n_zero,assigned_to
+Sample1_DRG_Con_rep1,Con,0,{}
+Sample2_DRG_Con_rep2,Con,0,{}
+Sample3_DRG_Con_rep3,Con,0,{}
+Sample4_DRG_Con_rep4,Con,0,{}
+Sample5_DRG_B16F10_rep1,B16F10,0,{}
+Sample6_DRG_B16F10_rep2,B16F10,0,{}
+Sample7_DRG_B16F10_rep3,B16F10,1,"{""Neuron"": 1}"
+Sample8_DRG_B16F10_rep4,B16F10,1,"{""Neuron"": 1}"

@@ -1,0 +1,122 @@
+{
+  "Neuron": {
+    "Sample1_DRG_Con_rep1": 5159,
+    "Sample2_DRG_Con_rep2": 5840,
+    "Sample3_DRG_Con_rep3": 4606,
+    "Sample4_DRG_Con_rep4": 4589,
+    "Sample5_DRG_B16F10_rep1": 4226,
+    "Sample6_DRG_B16F10_rep2": 5366,
+    "Sample7_DRG_B16F10_rep3": 5489,
+    "Sample8_DRG_B16F10_rep4": 4890
+  },
+  "SatelliteGlia": {
+    "Sample1_DRG_Con_rep1": 46,
+    "Sample2_DRG_Con_rep2": 35,
+    "Sample3_DRG_Con_rep3": 37,
+    "Sample4_DRG_Con_rep4": 25,
+    "Sample5_DRG_B16F10_rep1": 36,
+    "Sample6_DRG_B16F10_rep2": 44,
+    "Sample7_DRG_B16F10_rep3": 108,
+    "Sample8_DRG_B16F10_rep4": 30
+  },
+  "Schwann": {
+    "Sample1_DRG_Con_rep1": 1232,
+    "Sample2_DRG_Con_rep2": 1245,
+    "Sample3_DRG_Con_rep3": 1215,
+    "Sample4_DRG_Con_rep4": 1122,
+    "Sample5_DRG_B16F10_rep1": 1649,
+    "Sample6_DRG_B16F10_rep2": 1842,
+    "Sample7_DRG_B16F10_rep3": 3957,
+    "Sample8_DRG_B16F10_rep4": 1739
+  },
+  "Myeloid": {
+    "Sample1_DRG_Con_rep1": 3,
+    "Sample2_DRG_Con_rep2": 10,
+    "Sample3_DRG_Con_rep3": 12,
+    "Sample4_DRG_Con_rep4": 5,
+    "Sample5_DRG_B16F10_rep1": 5,
+    "Sample6_DRG_B16F10_rep2": 3,
+    "Sample7_DRG_B16F10_rep3": 7,
+    "Sample8_DRG_B16F10_rep4": 1
+  },
+  "TCell": {
+    "Sample1_DRG_Con_rep1": 0,
+    "Sample2_DRG_Con_rep2": 0,
+    "Sample3_DRG_Con_rep3": 0,
+    "Sample4_DRG_Con_rep4": 0,
+    "Sample5_DRG_B16F10_rep1": 0,
+    "Sample6_DRG_B16F10_rep2": 0,
+    "Sample7_DRG_B16F10_rep3": 1,
+    "Sample8_DRG_B16F10_rep4": 0
+  },
+  "Endothelial": {
+    "Sample1_DRG_Con_rep1": 40,
+    "Sample2_DRG_Con_rep2": 50,
+    "Sample3_DRG_Con_rep3": 86,
+    "Sample4_DRG_Con_rep4": 53,
+    "Sample5_DRG_B16F10_rep1": 43,
+    "Sample6_DRG_B16F10_rep2": 47,
+    "Sample7_DRG_B16F10_rep3": 79,
+    "Sample8_DRG_B16F10_rep4": 50
+  },
+  "Fibroblast": {
+    "Sample1_DRG_Con_rep1": 29,
+    "Sample2_DRG_Con_rep2": 138,
+    "Sample3_DRG_Con_rep3": 41,
+    "Sample4_DRG_Con_rep4": 20,
+    "Sample5_DRG_B16F10_rep1": 209,
+    "Sample6_DRG_B16F10_rep2": 172,
+    "Sample7_DRG_B16F10_rep3": 159,
+    "Sample8_DRG_B16F10_rep4": 89
+  },
+  "Erythrocyte": {
+    "Sample1_DRG_Con_rep1": 5,
+    "Sample2_DRG_Con_rep2": 4,
+    "Sample3_DRG_Con_rep3": 22,
+    "Sample4_DRG_Con_rep4": 3,
+    "Sample5_DRG_B16F10_rep1": 7,
+    "Sample6_DRG_B16F10_rep2": 6,
+    "Sample7_DRG_B16F10_rep3": 26,
+    "Sample8_DRG_B16F10_rep4": 15
+  },
+  "Neuron.NF": {
+    "Sample1_DRG_Con_rep1": 3405,
+    "Sample2_DRG_Con_rep2": 4380,
+    "Sample3_DRG_Con_rep3": 2993,
+    "Sample4_DRG_Con_rep4": 3306,
+    "Sample5_DRG_B16F10_rep1": 3051,
+    "Sample6_DRG_B16F10_rep2": 3157,
+    "Sample7_DRG_B16F10_rep3": 3395,
+    "Sample8_DRG_B16F10_rep4": 2942
+  },
+  "Neuron.NP": {
+    "Sample1_DRG_Con_rep1": 1,
+    "Sample2_DRG_Con_rep2": 0,
+    "Sample3_DRG_Con_rep3": 0,
+    "Sample4_DRG_Con_rep4": 0,
+    "Sample5_DRG_B16F10_rep1": 0,
+    "Sample6_DRG_B16F10_rep2": 1,
+    "Sample7_DRG_B16F10_rep3": 1,
+    "Sample8_DRG_B16F10_rep4": 0
+  },
+  "Neuron.PE": {
+    "Sample1_DRG_Con_rep1": 1753,
+    "Sample2_DRG_Con_rep2": 1460,
+    "Sample3_DRG_Con_rep3": 1613,
+    "Sample4_DRG_Con_rep4": 1283,
+    "Sample5_DRG_B16F10_rep1": 1173,
+    "Sample6_DRG_B16F10_rep2": 2206,
+    "Sample7_DRG_B16F10_rep3": 2090,
+    "Sample8_DRG_B16F10_rep4": 1947
+  },
+  "Neuron.TH": {
+    "Sample1_DRG_Con_rep1": 0,
+    "Sample2_DRG_Con_rep2": 0,
+    "Sample3_DRG_Con_rep3": 0,
+    "Sample4_DRG_Con_rep4": 0,
+    "Sample5_DRG_B16F10_rep1": 2,
+    "Sample6_DRG_B16F10_rep2": 2,
+    "Sample7_DRG_B16F10_rep3": 3,
+    "Sample8_DRG_B16F10_rep4": 1
+  }
+}

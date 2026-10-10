@@ -1,0 +1,18 @@
+{
+  "method": "Spearman of B16F10-vs-Con pseudobulk log2FC against Walker-256 bulk log2FC (muscle-adjusted limma) over shared genes; sc gene universe as in script 31",
+  "D1": {
+    "n_shared_genes": 12158,
+    "spearman_rho": 0.1115,
+    "spearman_p": 5.762025970162657e-35
+  },
+  "D7": {
+    "n_shared_genes": 12158,
+    "spearman_rho": 0.0985,
+    "spearman_p": 1.4160029287915969e-27
+  },
+  "D14": {
+    "n_shared_genes": 12158,
+    "spearman_rho": 0.0299,
+    "spearman_p": 0.000964187369158691
+  }
+}

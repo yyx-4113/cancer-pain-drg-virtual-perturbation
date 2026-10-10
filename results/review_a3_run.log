@@ -1,0 +1,85 @@
+[A3] feature-file md5: {
+  "Sample1_DRG_Con_rep1": "819d6b413b16794c5b8232938c4d03e8",
+  "Sample2_DRG_Con_rep2": "f02056fa30f7247f43d15380b2af2e0c",
+  "Sample3_DRG_Con_rep3": "bc6702b0336a3b9044c14f7390540fd7",
+  "Sample4_DRG_Con_rep4": "2d2505a547fe8788b8ce5c89ce7031e4",
+  "Sample5_DRG_B16F10_rep1": "76dde2f8082f7404ee3c268ed27fb965",
+  "Sample6_DRG_B16F10_rep2": "4b8b281e2d3996dae0f1650e432f3d42",
+  "Sample7_DRG_B16F10_rep3": "f26dcf16a9d98b1f8efc857e327875f7",
+  "Sample8_DRG_B16F10_rep4": "13ba593bb0c327b8a0785465cecc5651"
+}
+[A3] distinct feature files: 8
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_recheck_sc.py:94: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+  Sample1_DRG_Con_rep1 [Con] ncells=6514 zeroMarker=0 ambiguous=1462 medMargin=0.985
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_recheck_sc.py:94: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+  Sample2_DRG_Con_rep2 [Con] ncells=7322 zeroMarker=0 ambiguous=1338 medMargin=1.115
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_recheck_sc.py:94: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+  Sample3_DRG_Con_rep3 [Con] ncells=6019 zeroMarker=0 ambiguous=1272 medMargin=0.906
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_recheck_sc.py:94: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+  Sample4_DRG_Con_rep4 [Con] ncells=5817 zeroMarker=0 ambiguous=1105 medMargin=0.841
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_recheck_sc.py:94: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+  Sample5_DRG_B16F10_rep1 [B16F10] ncells=6175 zeroMarker=0 ambiguous=1321 medMargin=0.761
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_recheck_sc.py:94: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+  Sample6_DRG_B16F10_rep2 [B16F10] ncells=7480 zeroMarker=0 ambiguous=1585 medMargin=0.768
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_recheck_sc.py:94: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+  Sample7_DRG_B16F10_rep3 [B16F10] ncells=9826 zeroMarker=1 ambiguous=2746 medMargin=0.626
+D:\2026.10\不同部位癌痛患者对药物敏感性生信分析\cancer_pain_virtual_perturbation\scripts\A3_recheck_sc.py:94: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  mat = mmread(os.path.join(SC, gsm + "_matrix.mtx.gz")).tocsc()
+  Sample8_DRG_B16F10_rep4 [B16F10] ncells=6814 zeroMarker=1 ambiguous=1708 medMargin=0.851
+[A3] duplicate gene symbols in features.tsv: 107
+[A3] DONE

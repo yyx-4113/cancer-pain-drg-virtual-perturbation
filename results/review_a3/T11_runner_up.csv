@@ -1,0 +1,9 @@
+cell_type,runner_up,n,wmargin,frac
+Endothelial,Neuron,448,0.9025866985321045,1.0
+Erythrocyte,Neuron,88,2.73124098777771,1.0
+Fibroblast,Neuron,857,1.18909353017807,1.0
+Myeloid,Neuron,46,0.37477102875709534,1.0
+Neuron,Schwann,40165,1.2899432182312012,1.0
+SatelliteGlia,Schwann,361,0.05426771938800812,1.0
+Schwann,Neuron,14001,0.37368595600128174,1.0
+TCell,Neuron,1,0.25564301013946533,1.0

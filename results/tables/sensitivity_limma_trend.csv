@@ -1,0 +1,7 @@
+setting,frac,n_q05,n_q10,n_P01,spearman_t_vs_reference
+limma_trend_span,0.4,320,1031,1201,1.0
+limma_trend_span,0.2,325,1034,1205,0.9999962472070476
+limma_trend_span,0.3,321,1035,1201,0.9999993546260092
+limma_trend_span,0.5,319,1028,1202,0.9999995195919077
+limma_trend_span,0.6,316,1033,1204,0.9999979944061507
+limma_trend_span,none,323,962,1173,
