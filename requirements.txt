@@ -1,6 +1,8 @@
 # Reproducibility environment for the cancer-pain virtual-perturbation study.
 #
 # Every number in the manuscript was produced with exactly these versions.
+# Python is pinned to 3.13.x (CPython 3.13.12, the managed runtime that produced
+# every number); the accompanying .python-version pins the exact patch release.
 # statsmodels is NOT optional: it supplies the lowess fit used by limma-trend.
 # Without it _limma.fit_limma raises SystemExit rather than silently falling
 # back to a constant prior variance (an earlier revision did fall back
