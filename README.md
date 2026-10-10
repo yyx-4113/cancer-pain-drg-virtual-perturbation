@@ -92,9 +92,9 @@ All data are public; nothing is redistributed here (see `.gitignore`).
 | GSE249443 | rat DRG, bone cancer pain (earlier cohort) | proof-of-concept / pipeline validation | `data/raw/` |
 
 GEO is the canonical source. Download the series matrices / RAW tarballs into `data/raw/`
-(or run `scripts/30_fetch_sc.py` for the GSE292522 single-cell matrices). The two bulk
-expression matrices that are small enough to redistribute (`data/processed/*.csv`,
-≈12 MB total) are committed so the bulk pipeline can be re-run without re-downloading.
+(or run `scripts/30_fetch_sc.py` for the GSE292522 single-cell matrices). The small
+bulk-processed matrices (`data/processed/*.csv`, ≈13 MB total) are included so the bulk
+pipeline can be re-run from step 20 onward without re-downloading.
 
 ---
 

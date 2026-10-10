@@ -95,6 +95,22 @@ git ls-remote --tags origin          # 应列出 v1.0.0
 gh release view v1.0.0               # 查看自动生成的 Release
 ```
 
+> ⚠️ **`workflow` scope 限制（本机实测，务必知悉）**
+> 创建/修改 `.github/workflows/*` 需要令牌具备 **`workflow`** scope。本机 `gh` 令牌
+> 当前 scope 为 `gist, read:org, repo`，**不含 `workflow`**，因此：
+> 1. 用 Git Database API 推送时，含该文件的 tree **会返回 404**（`.github/workflows/` 下任意文件）；
+> 2. 故 v1.0.0 的仓库快照**暂不含** `release.yml`，该文件保留在本地工作区（untracked）；
+> 3. 因为工作流文件不在仓库内，**推送 tag 目前不会自动建 Release**——v1.0.0 的 Release 系手动经 API 创建。
+>
+> **恢复自动 Release 的方法**（一次性，需你本人在宿主机执行）：
+> ```bash
+> gh auth refresh -s workflow          # 授予 workflow scope（需浏览器确认）
+> git add .github/workflows/release.yml
+> git commit -m "ci: add release workflow"
+> git push origin main                 # 之后推送 v* tag 即自动建 Release
+> ```
+> 见 §8 该条排错。
+
 ---
 
 ## 5. 更新稿件的数据可用性声明
@@ -141,7 +157,7 @@ gh release view v1.0.0               # 查看自动生成的 Release
 | `fatal: not a git repository` | 尚未 `git init`，先执行第 1 节。 |
 | `! [rejected] (fetch first)` | 本地/远端分叉，先 `git fetch && git merge`（**勿 rebase**，会因 autocrlf 报未暂存改动）。 |
 | 推送体积超限 / 很慢 | 检查是否误 `git add` 了 `data/raw/`；用 `git status --short` 复核，必要时 `git rm --cached` 后重提交。 |
-| Release 未生成 | 确认 tag 以 `v` 开头且 workflow 已随 `main` 推送；查看仓库 *Actions* 页。 |
+| Release 未生成 | 确认 tag 以 `v` 开头且 workflow 已随 `main` 推送；查看仓库 *Actions* 页。若因令牌缺 `workflow` scope 而 `.github/workflows/release.yml` 未入库，则自动 Release 不生效——按 §4 恢复，或手动 `gh release create vX.Y.Z`。 |
 | 误用 `yongxinyang` 账号 | 该账号非科研账号，务必用 `yyx-4113`。 |
 
 ---
