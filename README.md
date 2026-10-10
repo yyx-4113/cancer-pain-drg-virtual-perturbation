@@ -88,7 +88,7 @@ All data are public; nothing is redistributed here (see `.gitignore`).
 |---|---|---|---|
 | **GSE149648** | rat DRG, tibial Walker-256 bone cancer pain (sham, D1/D7/D14) | discovery | `data/raw/` |
 | **GSE160543** | rat DRG, paclitaxel / oxaliplatin neuropathy | cross-aetiology comparator | `data/raw/` |
-| **GSE292522** | mouse L3–L5 DRG, B16F10 melanoma vs MPEK-BL6 control, 14 d | single-cell validation | `data/processed/GSE292522/` |
+| **GSE292522** | mouse L3–L5 DRG, B16F10 melanoma vs non-tumorigenic keratinocytes (MPEK-BL6), 14 d | single-cell validation | `data/processed/GSE292522/` |
 | GSE249443 | rat DRG, bone cancer pain (earlier cohort) | proof-of-concept / pipeline validation | `data/raw/` |
 
 GEO is the canonical source. Download the series matrices / RAW tarballs into `data/raw/`

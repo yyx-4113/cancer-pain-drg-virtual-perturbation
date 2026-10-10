@@ -483,7 +483,7 @@ def main():
     print(f"\n[manuscript] key statements present in {MS}")
     for s in ["4,600", "3,041", "0.991", "24.9", "+3.42", "−2.59", "6.26",
               "3/4,901", "3/71", "2/71", "0.165", "Jaccard 0.584", "0.959",
-              "0.989", "264 contrast-level tests", "132 independent", "20.5",
+              "0.989", "264 contrast-level tests", "132 tests", "20.5",
               "0.929", "GSE292522", "Sprr1a", "model-specific", "55,967",
               "32/132", "anti-selectiv", "0.0019", "binomial p = 0.0067",
               "46 cells", "eight testable compartments", "1.27",
