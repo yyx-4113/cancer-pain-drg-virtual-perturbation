@@ -208,7 +208,7 @@ This work is a secondary analysis of publicly deposited data and involved no new
 
 ## Declaration of generative AI in the writing process
 
-During the preparation of this work the author used a large language model assistant (a general-purpose LLM) for code debugging and manuscript language editing. No AI tool was used to design the statistical analyses, choose the methods, generate the numerical results, or interpret the findings; all analysis code was executed and verified locally and every numerical claim was checked against the deposited artefacts. The author performed all conceptual, analytical and interpretive work, reviewed and edited all content, and takes full responsibility for the published article.
+During the preparation of this work the author used a large language model (an OpenAI GPT-4-class model) for code debugging and manuscript language editing. No AI tool was used to design the statistical analyses, choose the methods, generate the numerical results, or interpret the findings; all analysis code was executed and verified locally and every numerical claim was checked against the deposited artefacts. The author performed all conceptual, analytical and interpretive work, reviewed and edited all content, and takes full responsibility for the published article.
 
 ---
 
