@@ -1,0 +1,150 @@
+# PLOS ONE 投稿系统（Editorial Manager）逐步填写指引
+
+> 适用稿件：*Divergent dorsal root ganglion programs in bone cancer pain and chemotherapy-induced peripheral neuropathy: an exact cross-study reanalysis and a negative-control calibration of in-silico perturbation*
+> 投稿包位置：`submission_PLOS_ONE/`（本文件夹）
+> 投稿系统：**Editorial Manager → `https://www.editorialmanager.com/pone/`**
+> 文章类型：**Research Article**
+
+---
+
+## 0. 投稿前核对清单（已就绪）
+
+- [x] `Manuscript.docx`（正文，Times New Roman 12pt、双倍行距、页脚页码、5 表内嵌、3 图注、22 条参考文献含 DOI）
+- [x] `Cover_Letter.docx`（附信，含具名生成式 AI 披露与 296 词摘要确认）
+- [x] `S1_Supporting_Information.docx`（数据/代码可用性、可复现性门）
+- [x] `Figure1.tif` / `Figure2.tif` / `Figure3.tif`（300 ppi、RGB、LZW-TIFF、均 ≤10 MB）
+- [x] 摘要已改为**非结构化单段、296 词、无引文**（PLOS ONE 硬性要求 ≤300 词、无参考文献）
+- [x] 作者名使用拉丁字母 **Yongxin Yang**（不带 MD / PhD / 任何学位头衔）
+- [x] 仓库 `release v1.0.0` 已与投稿稿同步（代码/产物可经 MANIFEST.sha256 校验）
+
+---
+
+## 1. 进入系统并建立账户
+
+1. 浏览器打开 **`https://www.editorialmanager.com/pone/`**。
+2. 首次投稿：点击 **"Register"** 注册作者账户。
+   - **姓名必须用拉丁字母**：First name = `Yongxin`，Last name = `Yang`。
+   - 邮箱：`960856791@qq.com`（与 ORCID 邮箱一致）。
+   - ORCID：`0009-0004-9698-6552`（在个人资料里填，系统会校验）。
+   - 单位：The Second Affiliated Hospital of Fujian University of Traditional Chinese Medicine, Fuzhou, Fujian 350003, China。
+   - **Degree / Suffix 字段留空**：不要填 B.M. / MD / PhD 等任何学位。
+3. 注册后登录，进入 Author 主菜单。
+
+> ⚠️ 请勿用中文名或带学位头衔（MD/PhD）建账户——PLOS 作者名须与 ORCID 及稿件署名完全一致。
+
+---
+
+## 2. 启动新投稿
+
+在 Author 主菜单点击 **"Submit New Manuscript"**（或 "Start New Submission"）。系统会进入带编号的逐步表单（Step 1 → Step N），左侧有进度条，可随时 Save & Submit Later 暂存。
+
+---
+
+## 3. 逐步填写说明
+
+### Step 1 — Article Type（文章类型）
+- 选择 **Research Article**。
+- 确认后进入下一步。
+
+### Step 2 — Manuscript Details（稿件信息）
+- **Title（标题）**：粘贴完整标题（见第 4 节元数据）。
+- **Running Head / Short Title（短标题）**：`Divergent DRG programs: bone cancer pain vs CIPN`（≤约 50 字符，超长会被系统提示，可微调）。
+- **Abstract（摘要）**：将 `Manuscript.docx` 的摘要原文（**非结构化单段、296 词、无引文**）整段粘贴到文本框。
+  - PLOS ONE 不接受结构化摘要（不要分 Background/Methods/Results/Conclusions）。
+  - 摘要内不得出现参考文献标号或引文。
+- **Keywords（关键词）**：逐条添加（回车分隔），建议 6 个：
+  `cancer pain; dorsal root ganglion; chemotherapy-induced peripheral neuropathy; interferon-stimulated genes; in-silico perturbation; negative control`
+
+### Step 3 — Authors（作者与单位）
+- 添加唯一作者 **Yongxin Yang**：
+  - 勾选 **Corresponding Author**。
+  - 填单位、邮箱、ORCID。
+  - **Degree 留空**。
+- 单位按稿件署名填写（福建中医药大学附属第二医院）。
+
+### Step 4 — Comments to Editor / Cover Letter（给编辑的留言 / 附信）
+- Editorial Manager 通常有 "Comments to Editor" 框。将 `Cover_Letter.docx` 的核心内容粘贴于此，或在该步骤上传 Cover Letter 文件（见 Step 7 文件类型选 "Cover letter"）。
+- 附信要点（已写好在 `Cover_Letter.docx`）：
+  - 声明为原创、未一稿多投、已获伦理批准（二次分析公共动物数据，原始 IACUC 见引文 [10][11][14]）。
+  - 生成式 AI 披露：仅用于代码调试与语言润色，不参与研究设计/结果/解读（具名：OpenAI GPT-4-class LLM）。
+  - 确认摘要 ≤300 词、无引文。
+  - 数据/代码可用性：GitHub 仓库 `release v1.0.0`。
+
+### Step 5 — Suggested / Excluded Reviewers（推荐/回避审稿人，可选）
+- 可选填。若无合适推荐，直接 Next。
+
+### Step 6 — Files（文件上传）★
+这是最关键的一步。点击 **"Attach Files"**，依次上传本文件夹中的文件，并在弹出的 "File Type" 下拉菜单中为**每个文件指定正确的 item type**：
+
+| 上传文件 | 选择 Item Type | 说明 |
+|---|---|---|
+| `Manuscript.docx` | **Manuscript** | 主文档 |
+| `Cover_Letter.docx` | **Cover letter** | 附信 |
+| `Figure1.tif` | **Figure** | 图 1 |
+| `Figure2.tif` | **Figure** | 图 2 |
+| `Figure3.tif` | **Figure** | 图 3 |
+| `S1_Supporting_Information.docx` | **Supporting Information** | 补充材料 |
+
+> ⚠️ 三张图必须作为独立 **Figure** 文件上传（不要嵌进 Manuscript 里再上传）；图注（legend）保留在 Manuscript 正文末尾即可。
+> ⚠️ 文件名已统一为英文，上传后 EM 会显示原文件名，无需改名。
+
+### Step 7 — Ethics & Declarations（伦理与声明）
+PLOS ONE 会询问以下问题，按本稿情况作答：
+
+- **Human Participants / Patients**：选 **No**（本稿为动物数据二次分析，不涉及新的人体受试者）。
+- **Animal Subjects**：选 **Reuse of existing animal data / secondary analysis**（二次使用已发表的公开动物数据）；在说明框注明原始 IACUC 批准见引文 [10][11][14]，本研究未新增动物实验。
+- **Data Availability**（必填）：选 **"All data are fully available without restriction"** 或 "Data are available from a public repository"，并在文本框粘贴：
+  > All input data are publicly deposited: GEO accessions GSE149648, GSE160543, and GSE292522. All analysis code, intermediate artefacts, and the 291-check validation gate are available at https://github.com/yyx-4113/cancer-pain-drg-virtual-perturbation (release v1.0.0), with requirements.txt pinning every version used and a MANIFEST.sha256 checksum.
+- **Generative AI / AI Assistance Disclosure**（PLOS 强制）：选 "Yes, AI was used"，并在框内粘贴：
+  > An OpenAI GPT-4-class large language model was used for code debugging and manuscript language editing only. It had no role in study design, data analysis, result interpretation, or decision to publish.
+
+### Step 8 — Additional Information（补充信息）
+- **Funding**（基金）：选 **No funding received**（本稿无外部资助）。如系统要求填声明，粘贴：
+  > This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+- **Competing Interests**（利益冲突）：选 **No competing interests**，或粘贴：
+  > The author declares no competing financial or personal interests.
+
+### Step 9 — Review & Submit（核对并提交）
+- 系统显示完整预览。逐项核对：
+  - 标题、摘要（单段、无引文、≤300 词）、关键词正确；
+  - 作者名 **Yongxin Yang**（无学位）、ORCID 正确；
+  - 6 个文件均已上传且 item type 正确；
+  - 伦理/数据可用性/AI 披露均已填。
+- 点 **"Submit"**。提交后系统生成 Manuscript ID（如 PONE-2026-XXXXX），并发送确认邮件到 `960856791@qq.com`。
+
+---
+
+## 4. 表单可直接复制的元数据
+
+- **Title**：Divergent dorsal root ganglion programs in bone cancer pain and chemotherapy-induced peripheral neuropathy: an exact cross-study reanalysis and a negative-control calibration of in-silico perturbation
+- **Running head**：Divergent DRG programs: bone cancer pain vs CIPN
+- **Article type**：Research Article
+- **Abstract**：非结构化单段，296 词，无引文（以 `Manuscript.docx` 为准）
+- **Keywords**：cancer pain; dorsal root ganglion; chemotherapy-induced peripheral neuropathy; interferon-stimulated genes; in-silico perturbation; negative control
+- **References**：22 条，Vancouver 方括号编号、全部含 DOI
+- **Tables / Figures**：5 表（正文内嵌、表题在上）+ 3 图（独立 TIFF、图注在正文）
+- **Corresponding author**：Yongxin Yang, 960856791@qq.com, ORCID 0009-0004-9698-6552
+- **Funding**：none；**Competing interests**：none；**Ethics**：公共动物数据二次分析，原始 IACUC 见 [10][11][14]
+
+---
+
+## 5. 常见被退修（technical reject）的坑
+
+1. **摘要结构化 / 超 300 词 / 含引文** → 已处理为单段 296 词无引文，勿再改回。
+2. **作者带学位头衔**（MD/PhD/B.M.）→ 系统或审稿人会要求删；本稿署名只用 Yongxin Yang。
+3. **图分辨率不足 / 格式错** → 已导出 300 ppi TIFF（≤10 MB），符合要求。
+4. **数据可用性声明缺失或写 "available on request"** → 已替换为实名 GitHub 仓库 + GEO 编号 + 版本 tag。
+5. **生成式 AI 未披露** → PLOS 强制，已在附信与表单两处声明。
+6. **一稿多投 / 伦理** → 附信已声明原创、二次分析公共数据、原始伦理批准已引。
+
+---
+
+## 6. 投稿后
+
+- 保留 Manuscript ID 与确认邮件。
+- 状态通常在数日内变为 "With Editor" → "Under Review"。
+- 如需补材料，系统会发邮件；本包 `SUBMISSION_MANIFEST.md` 记录所有文件↔item type 映射，便于对照补传。
+
+---
+
+*本指引与 `SUBMISSION_MANIFEST.md` 配套使用；一切数字与文件名以本文件夹实际产物为准。*
