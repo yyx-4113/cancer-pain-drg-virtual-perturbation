@@ -214,7 +214,7 @@ During the preparation of this work the author used a large language model assis
 
 ## Data and code availability
 
-All data are public: GSE149648 and GSE160543 (NCBI Gene Expression Omnibus) for discovery, and GSE292522 (NCBI GEO) for single-cell validation. Analysis code, artefacts and the test suite are available at https://github.com/yyx-4113/cancer-pain-drg-virtual-perturbation (release v1.0.0), with `requirements.txt` pinning every version used, and will be archived at Zenodo upon acceptance.
+All data are public: GSE149648 and GSE160543 (NCBI Gene Expression Omnibus) for discovery, and GSE292522 (NCBI GEO) for single-cell validation. Analysis code, artefacts and the test suite are available at https://github.com/yyx-4113/cancer-pain-drg-virtual-perturbation (release v1.0.0), with `requirements.txt` pinning every version used.
 
 ## References
 1. Fallon M, Giusti R, Aielli F, et al. Management of cancer pain in adult patients: ESMO Clinical Practice Guidelines. *Ann Oncol*. 2018;29(Suppl 4):iv166–iv191. doi:10.1093/annonc/mdy152

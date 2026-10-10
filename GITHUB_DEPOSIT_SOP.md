@@ -3,8 +3,8 @@
 > 适用项目：`cancer-pain-drg-virtual-perturbation`
 > 稿件：*Divergent dorsal root ganglion programs in bone cancer pain and
 > chemotherapy-induced peripheral neuropathy …*（单作者 Yongxin Yang）
-> 本手册记录把本地分析目录变成公开复现包仓库、打版本 tag、并在接收后归档到
-> Zenodo 的完整操作。**所有命令均可直接复制运行。**
+> 本手册记录把本地分析目录变成公开复现包仓库、打版本 tag 的完整操作
+> （Zenodo 归档见 §6，当前按作者要求**暂缓**）。**所有命令均可直接复制运行。**
 
 ---
 
@@ -119,18 +119,19 @@ gh release view v1.0.0               # 查看自动生成的 Release
 **Data and code availability** 段由将来时改为现在时，并给出**实名仓库 URL + 版本 tag**：
 
 > Analysis code, artefacts and the test suite are available at
-> https://github.com/yyx-4113/cancer-pain-drg-virtual-perturbation (tag v1.0.0),
-> with `requirements.txt` pinning every version used, and will be archived at Zenodo
-> upon acceptance.
+> https://github.com/yyx-4113/cancer-pain-drg-virtual-perturbation (release v1.0.0),
+> with `requirements.txt` pinning every version used.
 
 改完务必重跑闸门：`python scripts/98_check_manuscript_numbers.py`（期望 0 failed）。
 
 ---
 
-## 6. 接收后归档到 Zenodo（留 DOI）
+## 6. 归档到 Zenodo（留 DOI）— ⏸ 暂缓，按作者要求暂不执行
+
+> **状态：作者已决定暂不归档 Zenodo。** 稿件 Data-and-code-availability 段与 `CITATION.cff` 当前均**不引用**任何 Zenodo DOI，仅指向 GitHub 仓库（release v1.0.0）。本节保留为后续若改变主意时的操作模板，**在作者明确指示前请勿执行**。
 
 1. 在 Zenodo 用 **GitHub 登录**，于 *Settings → GitHub* 打开本仓库的开关。
-2. 回 GitHub 创建**新 tag**（如 `v1.0.1` 或 `v1.1.0`）并推送 —— Zenodo 自动抓取该快照、
+2. 回 GitHub 创建**新 tag**（如 `v1.1.0`）并推送 —— Zenodo 自动抓取该快照、
    生成 **版本 DOI** 与 **概念 DOI**（concept DOI，永远指向最新版）。
 3. 到 Zenodo 记录编辑：补齐作者（**Yongxin Yang，不加 MD/PhD 后缀**）、机构
    （The Second Affiliated Hospital of Fujian University of Traditional Chinese Medicine）、

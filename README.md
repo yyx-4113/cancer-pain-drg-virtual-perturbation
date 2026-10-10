@@ -41,7 +41,7 @@ cancer_pain_virtual_perturbation/
 ├── LICENSE                       ← MIT
 ├── requirements.txt              ← pinned environment (exact versions used)
 ├── MANIFEST.sha256               ← SHA-256 of every deposited artefact
-├── GITHUB_DEPOSIT_SOP.md         ← 中文：建仓 / 打 tag / Zenodo 归档操作手册
+├── GITHUB_DEPOSIT_SOP.md         ← 中文：建仓 / 打 tag 操作手册（Zenodo 归档已暂缓）
 ├── author_verification_statement.md
 │
 ├── scripts/                      ← analysis pipeline + audit helpers
@@ -174,8 +174,7 @@ These are stated in full in the manuscript; the short version:
   CD45⁺ depletion before sequencing; the erythrocyte bin is retained with an unequal
   2 control / 4 tumour split; Gfap is essentially absent from the satellite-glia bin.
 - **Data availability.** Code and artefacts are deposited here. The manuscript's
-  Data-and-code-availability statement points to this repository; the archived Zenodo DOI
-  is added on acceptance.
+  Data-and-code-availability statement points to this repository (release v1.0.0).
 
 ---
 
@@ -191,7 +190,7 @@ These are stated in full in the manuscript; the short version:
 ## Citation
 
 If you use this code or the derived artefacts, please cite the manuscript (see
-`CITATION.cff`). The repository itself is citable via its version tag / Zenodo DOI.
+`CITATION.cff`). The repository itself is citable via its version tag.
 
 ## License
 
