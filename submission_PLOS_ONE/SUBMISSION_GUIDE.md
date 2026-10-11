@@ -92,7 +92,8 @@
 PLOS ONE 会询问以下问题，按本稿情况作答：
 
 - **Human Participants / Patients**：选 **No**（本稿为动物数据二次分析，不涉及新的人体受试者）。
-- **Animal Subjects**：选 **Reuse of existing animal data / secondary analysis**（二次使用已发表的公开动物数据）；在说明框注明原始 IACUC 批准见引文 [10][11][14]，本研究未新增动物实验。
+  - **Animal Subjects**：选 **Reuse of existing animal data / secondary analysis**（二次使用已发表的公开动物数据）；在说明框注明原始 IACUC 批准见引文 [10][11][14]，本研究未新增动物实验。
+- **Did you use or generate research data?**（必填，最易踩坑）：选 **Yes / 是的**。本稿是对公共 GEO 数据的**再分析**——虽未生成新原始数据，但**使用了公共研究数据并报告了分析**。若误选 No，其系统措辞为"本手稿不报告数据生成或分析"，与再分析稿直接矛盾，会被 editorial office technical reject。选 Yes 后，在随后出现的 Data Availability 文本框粘贴下方声明即可（无需另传数据文件）。
 - **Data Availability**（必填）：选 **"All data are fully available without restriction"** 或 "Data are available from a public repository"，并在文本框粘贴：
   > All input data are publicly deposited: GEO accessions GSE149648, GSE160543, and GSE292522. All analysis code, intermediate artefacts, and the 291-check validation gate are available at https://github.com/yyx-4113/cancer-pain-drg-virtual-perturbation (release v1.0.0), with requirements.txt pinning every version used and a MANIFEST.sha256 checksum.
 - **Generative AI / AI Assistance Disclosure**（PLOS 强制）：选 "Yes, AI was used"，并在框内粘贴：
@@ -136,6 +137,7 @@ PLOS ONE 会询问以下问题，按本稿情况作答：
 4. **数据可用性声明缺失或写 "available on request"** → 已替换为实名 GitHub 仓库 + GEO 编号 + 版本 tag。
 5. **生成式 AI 未披露** → PLOS 强制，已在附信与表单两处声明。
 6. **一稿多投 / 伦理** → 附信已声明原创、二次分析公共数据、原始伦理批准已引。
+7. **"Did you use or generate research data?" 误选 No** → 再分析公共数据稿必须选 **Yes / 是的**；No 的措辞是"本手稿不报告数据生成或分析"，与再分析矛盾，必被 technical reject。选 Yes 后粘贴 Data Availability 声明即可。
 
 ---
 
