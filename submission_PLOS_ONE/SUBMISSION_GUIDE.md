@@ -4,12 +4,13 @@
 > 投稿包位置：`submission_PLOS_ONE/`（本文件夹）
 > 投稿系统：**Editorial Manager → `https://www.editorialmanager.com/pone/`**
 > 文章类型：**Research Article**
+> ⚠️ **本包对应编辑退修决定（Manuscript ID ONE-D-26-50896，"Sent Back to Author"）**：编辑要求**把图从 Manuscript 文件里移除，只保留独立 TIFF/EPS**（系统会自动拼进审稿 PDF）。本包已按此处理——`Manuscript.docx` 内**不再内嵌图**，3 张图作为独立 `Figure1–3.tif` 上传，正文仅保留图注与占位行。重投窗口 **21 天**（可向 plosone@plos.org 申请最长再延长 1 个月）。
 
 ---
 
 ## 0. 投稿前核对清单（已就绪）
 
-- [x] `Manuscript.docx`（正文，Times New Roman 12pt、双倍行距、页脚页码、5 表内嵌、3 图注、22 条参考文献含 DOI）
+- [x] `Manuscript.docx`（正文，Times New Roman 12pt、双倍行距、页脚页码、5 表内嵌、3 图注；**正文不含内嵌图**，图件独立上传）
 - [x] `Cover_Letter.docx`（附信，含具名生成式 AI 披露与 296 词摘要确认）
 - [x] `S1_Supporting_Information.docx`（数据/代码可用性、可复现性门）
 - [x] `Figure1.tif` / `Figure2.tif` / `Figure3.tif`（300 ppi、RGB、LZW-TIFF、均 ≤10 MB）
@@ -62,6 +63,8 @@
   - **Degree 留空**。
 - 单位按稿件署名填写（福建中医药大学附属第二医院）。
 
+> ⚠️ 投稿系统回执曾显示作者名重复为 "yongxin yang yongxin yang"。若系统中出现**两条相同的作者记录**，请删除重复项，只保留唯一 **Yongxin Yang**（Corresponding Author，Degree 留空）。本稿为单一作者，不应出现重复署名。
+
 ### Step 4 — Comments to Editor / Cover Letter（给编辑的留言 / 附信）
 - Editorial Manager 通常有 "Comments to Editor" 框。将 `Cover_Letter.docx` 的核心内容粘贴于此，或在该步骤上传 Cover Letter 文件（见 Step 7 文件类型选 "Cover letter"）。
 - 附信要点（已写好在 `Cover_Letter.docx`）：
@@ -85,8 +88,9 @@
 | `Figure3.tif` | **Figure** | 图 3 |
 | `S1_Supporting_Information.docx` | **Supporting Information** | 补充材料 |
 
-> ⚠️ 三张图必须作为独立 **Figure** 文件上传（不要嵌进 Manuscript 里再上传）；图注（legend）保留在 Manuscript 正文末尾即可。
+> ⚠️ 三张图必须作为独立 **Figure** 文件上传（不要嵌进 Manuscript 里再上传）；图注（legend）保留在 Manuscript 正文末尾即可。本包 `Manuscript.docx` 已按编辑要求移除全部内嵌图，仅保留图注与一行占位标注（如 *[Figure: Figure 1 — provided as separate TIFF file Figure1.tif]*）。
 > ⚠️ 文件名已统一为英文，上传后 EM 会显示原文件名，无需改名。
+> ⚠️ **重投（本稿被退回后再次提交）**：进入 *Submissions Sent Back to Author* 找到本稿，上传新 `Manuscript.docx` 时**务必先删除/替换之前上传的旧 manuscript 文件**（编辑原话："Be sure to remove your previous manuscript file if you are uploading a new file"）；三张图作为独立 Figure 重新上传；最后**重建 PDF 并查看、批准**方可完成重投。
 
 ### Step 7 — Ethics & Declarations（伦理与声明）
 PLOS ONE 会询问以下问题，按本稿情况作答：
@@ -123,7 +127,7 @@ PLOS ONE 会询问以下问题，按本稿情况作答：
 - **Abstract**：非结构化单段，296 词，无引文（以 `Manuscript.docx` 为准）
 - **Keywords**：cancer pain; dorsal root ganglion; chemotherapy-induced peripheral neuropathy; interferon-stimulated genes; in-silico perturbation; negative control
 - **References**：22 条，Vancouver 方括号编号、全部含 DOI
-- **Tables / Figures**：5 表（正文内嵌、表题在上）+ 3 图（独立 TIFF、图注在正文）
+- **Tables / Figures**：5 表（正文内嵌、表题在上）+ 3 图（独立 TIFF、正文仅含图注与占位、**无内嵌图**，符合编辑退修要求）
 - **Corresponding author**：Yongxin Yang, 960856791@qq.com, ORCID 0009-0004-9698-6552
 - **Funding**：none；**Competing interests**：none；**Ethics**：公共动物数据二次分析，原始 IACUC 见 [10][11][14]
 

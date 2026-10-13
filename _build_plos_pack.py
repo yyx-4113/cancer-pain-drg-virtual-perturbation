@@ -179,16 +179,14 @@ def build_manuscript():
         if s.startswith("### "):
             para(doc, s[4:].strip(), bold=True, size=11, space_before=6, space_after=2)
             continue
-        if s.startswith("!["):  # image embed
-            m = re.search(r"!\[[^\]]*\]\(([^)]+)\)", s)
+        if s.startswith("!["):  # image reference -> placeholder only; PLOS: figures uploaded as separate TIFF/EPS
+            m = re.search(r"!\[([^\]]*)\]\(([^)]+)\)", s)
             if m:
-                img = os.path.join(os.path.dirname(MS), m.group(1))
-                if os.path.exists(img):
-                    try:
-                        doc.add_picture(img, width=Inches(6.0))
-                        doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
-                    except Exception as e:
-                        para(doc, f"[Figure file: {os.path.basename(img)}]", italic=True)
+                alt = m.group(1).strip()            # e.g. "Figure 1"
+                tif = alt.replace(" ", "") + ".tif"  # -> Figure1.tif
+                p = para(doc, f"[Figure: {alt} — provided as separate TIFF file {tif}]",
+                         italic=True, size=10, space_before=4, space_after=6)
+                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             continue
         if is_table_row(line):  # collect table
             rows = []

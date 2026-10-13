@@ -22,7 +22,7 @@ Date prepared: 2026-10-10
 - Keywords (subject categories, optional at submission): cancer pain; dorsal root ganglion; chemotherapy-induced peripheral neuropathy; interferon-stimulated genes; in-silico perturbation; negative control
 - References: 22, all with DOI, numbered in order of citation (Vancouver)
 - Tables: 5 (in manuscript, editable, caption above)
-- Figures: 3 (separate TIFF, legends in text)
+- Figures: 3 (separate TIFF, legends in text). **Manuscript.docx contains NO embedded images** — compliant with the editorial request to remove figures from the manuscript file; figures are uploaded as separate Figure items and auto-inserted into the reviewer PDF.
 - Corresponding author: Yongxin Yang, 960856791@qq.com, ORCID 0009-0004-9698-6552
 - Funding: none; Competing interests: none; Ethics: secondary analysis of public data (original approvals cited)
 
